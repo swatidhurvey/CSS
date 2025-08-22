@@ -1,0 +1,969 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+main{
+    width:100%;
+    height:100vh;
+}
+nav{
+    width:100%;
+    height:12vh;
+}
+nav #nav1{
+  width:100%;
+    height:10vh; 
+    padding-left: 16%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 200;
+line-height: 12px;
+color: rgb(0, 0, 0);
+position: fixed;
+position: static;
+}
+nav #nav1 ul li{
+  display: flex;
+  display: inline-block;
+  padding:0 14px;
+  margin-top: 3%;
+  font-family: monospace;
+}
+nav #nav1 .container{
+    width:400px;
+    height:350px;
+    background-color: burlywood;
+    display: flex;
+    gap:10px;
+    display: none;
+}
+nav #nav1 .container .item{
+    width:200px;
+    height:300px;
+    background-color: white;
+     padding-left: 20px; 
+}
+nav #nav1 .container .item h5{
+    font-size: 15px;
+    color:grey;
+    font-family:monospace;
+    padding:5px;
+}
+nav #nav1 .container .item h1{
+    font-size: 20px;
+    font-family: monospace;
+    padding-top: 10px;
+}
+nav #nav1 .container .item h2{
+    font-size: 20px;
+    font-family: monospace;
+    color:grey;
+}
+nav #nav1 .container .item h4{
+   font-size: 15px;
+   font-family: monospace;
+ padding-top: 10px;
+ font-weight: 400;
+}
+nav #nav1 .container .item h5{
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: monospace;
+    color:black;
+    font-weight: 400;
+}
+ #nav1  ul li :hover  .container{
+  display: block;
+}
+nav #nav2{
+    width:100%;
+    height:9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.5883px;
+color: rgb(29, 29, 31);
+}
+nav #nav2 p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+   /*padding-top: 130px;*/
+}
+nav #nav2 h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:#007AFF;
+   /*padding-top: 130px;*/
+
+}
+header{
+    width:100%;
+    height:90vh;
+    background-image: url(https://www.apple.com/v/home/cf/images/heroes/bts-2025/hero_bts_2025__kjxalx8t7ia2_medium.jpg);
+   /* background-image: url(https://i.etsystatic.com/5179139/r/il/560c12/1442698546/il_300x300.1442698546_ki6g.jpg);*/
+    background-position: center;
+    background-size:cover ;
+    box-shadow: 10px 10px 10px white;
+   position: absolute;
+   top:10px;
+   margin-top: 8%;
+
+}
+header #box1
+{
+    width:240px;
+    height:170px;
+    background-color: #007AFF;
+    border-radius: 40px;
+    margin-left: 40%;
+}
+header #box1 h1{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 25px;
+color:white;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+#box1 .tv{
+ position: absolute;
+    top:20px;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+#box1 .tv img{
+    width:80px;
+    height:90px;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0); 
+}
+header #box1 .tv2{
+   font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(232, 232, 232); 
+background-color: transparent;
+}
+#box1 .tv2 img{
+    width:140px;
+    height:90px;
+    position: absolute;
+    top:1px;
+    margin-left: 13%;
+   transform: rotate(5deg);
+   font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+}
+header #box2
+{
+    width:240px;
+    height:50px;
+    background-color: #007AFF;
+     border-radius: 40px;
+     margin-top: 10px;
+     margin-left: 40%;
+}
+header #box2  h2{
+    color:white; 
+      font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+padding-top: 17px;
+padding-left: 10px;
+}
+header #box3
+{
+    width:240px;
+    height:230px;
+    background-color: #007AFF;
+     border-radius: 40px;
+     margin-top: 16px;
+     margin-left: 40%;
+}
+header #box3 h1{
+    color:white;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     padding-top: 20px;
+     font-size: 40px;
+font-weight: 400;
+padding-top: 30px;
+padding-left: 20px;
+}
+header #box3 .emoji{
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+position: absolute;
+top:10px;
+left: 20px;
+margin-left: 37%;
+margin-top: 17%;
+}
+header .btn{
+    width:85px;
+    height:40px;
+    border: none;
+    border: 1px solid  #007AFF ;
+    border-radius: 40px;
+    margin-left: 45%;
+    margin-top: 10px;
+    color:#007AFF;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+header .btn:hover{
+    background-color: #007AFF;
+    color: white;
+    box-shadow: 10px 10px 10px white;
+}
+/**/
+section{
+    width:100%;
+    height:100vh;
+    margin-top: 50%;
+}
+section #section_part1{
+    width:100%;
+    height:95vh;
+    background-image: url(https://www.apple.com/v/home/cf/images/heroes/macbook-air/hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section #section_part1   #part1{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+margin-left: 37%;
+padding-top: 5%;
+}
+section #section_part1  #part1 h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+section #section_part1  #part1 h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+section #section_part1  #part1 h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+section #section_part1  .btn1{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+section #section_part1  .btn1 .learn{
+       width:130px;
+       height:45px;
+       border: none;
+       color:white;
+       background-color: #007AFF;
+       border-radius: 40px; 
+       font-size: 17px;
+       cursor: pointer; 
+       font-family: sans-serif;
+}
+section #section_part1  .btn1 .buy{
+     width:75px;
+     height:45px;
+     border: none;
+     border-radius: 23px;
+     border: 1px solid #007AFF;
+     color:#007AFF;
+     margin-top: 2px;
+     cursor: pointer;
+     transition: all ease 1s;
+     font-size: 17px;
+     background-color: transparent;
+     font-family: sans-serif;
+}
+ section #section_part1   .btn1  .buy  :hover{
+    background-color: #007AFF;
+    color:white;
+ } 
+ section #section_part1  h5{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 26px;
+font-weight: 900;
+line-height: 25px;
+margin-top: 22%;
+margin-left: 40%;
+background: -webkit-linear-gradient( hwb(210 35% 3%), #D37ADC, #F14266 );
+background-clip: text;
+-webkit-text-fill-color: transparent;
+ } 
+/**/
+section #section_part2{
+    width:100%;
+    height:95vh;
+    background-image: url(https://www.apple.com/v/home/cf/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+}
+section #section_part2 #part2{
+    margin-left: 35%;
+   padding-top: 40px;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+}
+section #section_part2 #part2 h1{
+   font-size: 50px;
+   font-weight: 500;
+   margin-left: 110px;
+}
+section #section_part2 #part2 h2{
+    font-size: 34px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: gray;
+}
+section #section_part2 #part2 .b{
+     display: flex;
+     gap:20px;
+     margin-left: 70px;
+     margin-top: 25px;
+     border: none;
+}
+section #section_part2 #part2 .b .l{
+   width:130px;
+   height:40px;
+   font-size: 16px;
+   border: none;
+   background-color: #007AFF;
+   font-family: sans-serif;
+   color: white;
+   border-radius: 20px;
+   cursor: pointer;
+}
+section #section_part2 #part2  .b  .sh{
+   width:130px;
+   height:40px;
+   font-size: 16px;
+   font-family: sans-serif;
+  color: #007AFF;
+   border-radius: 20px;
+   cursor: pointer;
+   border: 1px solid #007AFF;
+   transition: all ease 1s;
+}
+section #section_part2 #part2  .b  .sh :hover{
+    background-color: #007AFF;
+    color:white;
+}
+section #section_part2 h3{
+    font-size: 29px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 400;
+    background: -webkit-linear-gradient( hwb(210 35% 3%), #D37ADC, #F14266 );
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+section #section_part3{
+    width:100%;
+    height:95vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+section #section_part3 .item1{
+    width:48%;
+    height:90vh;
+
+}
+section #section_part3 .item1 img{
+     width:100%;
+    height:97vh;
+    object-fit: cover;
+    object-position: center;
+}
+section #section_part3 .item1 .In{
+    position: absolute;
+    top:1px;
+    margin-top: 180%;
+    margin-left: 15%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+
+}
+section #section_part3 .item1 .In h1{
+   font-size: 40px;
+   margin-left: 35px;
+   font-weight: 600;
+}
+section #section_part3 .item1 .In h2{
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+section #section_part3 .item1 .In h3{
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: 500;
+    margin-left: 65px;
+}
+section #section_part3 .item1 .In .ex{
+    width:100px;
+    height:40px;
+    color:white;
+    background-color: #007AFF;
+    border: none;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+section #section_part3 .item2{
+    width:48%;
+    height:97vh;
+}
+section #section_part3 .item2 .more{
+    width:130px;
+    height:40px;
+     position: absolute;
+     left:20px;
+     margin-left: 70%;
+     margin-top: 39%;
+     border: none;
+     background-color: ghostwhite;
+     border-radius: 25px;
+     font-size: 18px;
+     font-weight: 200;
+     cursor: pointer;
+}
+section #section_part3 .item2 img{
+     width:100%;
+    height:97vh;
+    object-fit: cover;
+    object-position: center;
+}
+section #section_part4{
+     width:100%;
+    height:95vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+section #section_part4 .item3{
+    width:48%;
+    height:90vh;
+    background-image: url(https://www.apple.com/v/home/cf/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 13%;
+}
+section #section_part4 .item3 img{
+    width:170px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+section #section_part4 .item3  h2{
+    font-size: 25px;
+    font-weight: 100px;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 23px;
+font-weight: 400;
+line-height: 25px;
+margin-top: 14px;
+}
+section #section_part4 .item3 .l2{
+    display: flex;
+    gap:20px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border: none;
+}
+section #section_part4 .item3 .l2 .le{
+     width:130px;
+       height:45px;
+       color:white;
+       border: none;
+       background-color: #007AFF;
+       border-radius: 40px; 
+       font-size: 17px;
+       cursor: pointer; 
+       font-family: sans-serif;
+}
+section #section_part4 .item3 .l2 .bu{
+    width:75px;
+     height:45px;
+     border-radius: 23px;
+     border: 1px solid #007AFF;
+     color:#007AFF;
+     margin-top: 2px;
+     cursor: pointer;
+     transition: all ease 1s;
+     font-size: 17px;
+     background-color: transparent;
+     font-family: sans-serif;
+}
+section #section_part4 .item3 .l2 .bu :hover{
+    background-color: #007AFF;
+    color: white;
+}
+section #section_part4 .item3 h3{
+    font-size: 28px;
+    margin-top: 75%;
+    font-weight: 500;
+    margin-left: 60px; 
+    font-family: sans-serif;
+    background: -webkit-linear-gradient( hwb(210 35% 3%), #D37ADC, #F14266 );
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/**/
+section #section_part4 .item4{
+    width:48%;
+    height:90vh;
+    background-image: url(https://www.apple.com/v/home/cf/images/promos/macbook-pro/promo_macbookpro_announce__gdf98j6tj2ie_medium.jpg);
+     background-size: cover;
+    background-position: center;
+    color:white;
+    padding-left: 16%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+
+}
+section #section_part4 .item4 h1{
+   font-size: 40px;
+   margin-top: 30px;
+}
+section #section_part4 .item4  h2{
+    font-size: 25px;
+    font-weight: 100px;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 23px;
+font-weight: 400;
+line-height: 25px;
+margin-top: 20px;
+margin-left: 30px;
+}
+section #section_part4 .item4 .l2{
+    display: flex;
+    gap:20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: none;
+}
+section #section_part4 .item4 .l2 .le{
+     width:130px;
+       height:45px;
+       color:white;
+       border: none;
+       background-color: #007AFF;
+       border-radius: 40px; 
+       font-size: 17px;
+       cursor: pointer; 
+       font-family: sans-serif;
+}
+section #section_part4 .item4 .l2 .bu{
+    width:75px;
+     height:45px;
+     border-radius: 23px;
+     border: 1px solid #007AFF;
+     color:#007AFF;
+     margin-top: 2px;
+     cursor: pointer;
+     transition: all ease 1s;
+     font-size: 17px;
+     background-color: transparent;
+     font-family: sans-serif;
+}
+section #section_part4 .item4 .l2 .bu :hover{
+    background-color: #007AFF;
+    color: white;
+}
+section #section_part4 .item4 h3{
+    font-size: 24px;
+    margin-top: 85%;
+    font-weight: 500;
+    margin-left: 30px; 
+    font-family: sans-serif;
+    background: -webkit-linear-gradient( hwb(210 35% 3%), #D37ADC, #F14266 );
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+/**/
+section #section_part5{
+    width:100%;
+    height:95vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+section #section_part5 .con1{
+    width:48%;
+    height:90vh;
+    background-image: url(https://www.apple.com/v/home/cf/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 10%;
+    padding-top: 25%;
+    color:white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 400;
+line-height: 25px;
+
+}
+section #section_part5 .con1 h1{
+    font-size: 45px;
+    margin-left: 80px;
+}
+section #section_part5 .con1 h2{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+section #section_part5 .con1 h3{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+section #section_part5 .con1 .l3{
+    display: flex;
+    gap:20px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border: none;
+}
+section #section_part5 .con1 .l3  .le{
+     width:130px;
+       height:45px;
+       color:white;
+       border: none;
+       background-color: #007AFF;
+       border-radius: 40px; 
+       font-size: 17px;
+       cursor: pointer; 
+       font-family: sans-serif;
+}
+section #section_part5 .con1 .l3 .bu{
+    width:75px;
+     height:45px;
+     border-radius: 23px;
+     border: 1px solid #007AFF;
+     color:#007AFF;
+     margin-top: 2px;
+     cursor: pointer;
+     transition: all ease 1s;
+     font-size: 17px;
+     background-color: transparent;
+     font-family: sans-serif;
+}
+section #section_part5 .con1 .l3 .bu :hover{
+    background-color: #007AFF;
+    color: white;
+}
+
+section #section_part5 .con2{
+    width:48%;
+    height:90vh;
+    background-image: url(https://www.apple.com/v/home/cf/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+     background-size: cover;
+    background-position: center;
+    color:black;
+    padding-left: 10%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+
+}
+section #section_part5 .con2 h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+section #section_part5 .con2 h1 img{
+    width:200px;
+    object-fit: cover;
+    object-position: center;
+}
+section #section_part5 .con2 h2{
+    font-weight: 200;
+    margin-top: 20px;
+    font-size: 23px;
+}
+section #section_part5 .con2 button{
+    width:130px;
+    height:45px;
+    margin-left: 110px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    color:white;
+    border: none;
+    background-color: #007AFF;
+    cursor: pointer;
+}
+/**/
+section #section_part6{
+    width:100vh;
+    height:95vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+}
+section #section_part6 .Animation{
+    width:100vh;
+    animation: move;
+    animation-timing-function: linear;
+    animation-duration:100s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    display: flex;
+    position: absolute;
+      margin-top: 290%;
+}
+section #section_part6  .Animation img{
+    width:100%;
+    height:90vh;
+     cursor: pointer;
+}
+@keyframes move{
+    0%{
+        left:0%;
+        top:0%;
+    }
+    100%{
+        left: -800%;
+        top:0%;
+    }
+}
+section #section_part6 #stream p{
+    color:white;
+   position: absolute;
+   font-size: 25px;
+   padding-top: 35.30%;
+   padding-left: 14%;
+    cursor: pointer;
+}
+
+section #section_part6 #stream  button{
+    width:130px;
+    height:50px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+border-radius: 20px;
+ cursor: pointer;
+}
+footer{
+    width:100%;
+    height:80vh;
+    position: absolute;
+    margin-top: 237%;
+}
+footer #footer_part1{
+    width:80%;
+    height:89vh;
+    padding-top: 3%;
+    margin-left: 10%;
+    color: rgba(0, 0, 0, 0.56);
+    
+}
+footer #footer_part1   p br{
+    width:50%;
+    height:100%;
+
+}
+footer #footer_part2{
+    width:100%;
+    height:100vh;
+}
+footer #footer_part2 .box{
+    width:80%;
+    height:80vh;
+    background-color: white;
+    margin-left: 10%;
+    display: flex;
+    gap:10px;
+
+}
+footer #footer_part2 .box .box1{
+    width:20%;
+    height:80vh;
+     font-size: 15px;
+      padding-left: 30px;
+      color:gray;
+      font-family: sans-serif;
+}
+footer #footer_part2 .box .box1 h1{
+  font-size: 20px;
+  color:black;
+  font-weight: 200;
+}
+footer #footer_part2 .box .box1 h2{
+    font-size: 15px;
+    padding-top: 15px;
+}
+/**/
+footer #footer_part2 .box .box2{
+    width:20%;
+    height:80vh;
+      padding-left: 30px;
+      color:gray;
+      font-family: sans-serif;
+}
+
+footer #footer_part2 .box  .box2  h1{
+  font-size: 15px;
+  color:black;
+  font-weight: 200;
+}
+footer #footer_part2 .box  .box2  h2{
+    font-size: 15px;
+    padding-top: 15px;
+}
+footer #footer_part2 .box .box3{
+    width:20%;
+    height:80vh;
+     padding-left: 30px;
+      color:gray;
+      font-family: sans-serif;
+}
+footer #footer_part2 .box  .box3  h1{
+  font-size: 15px;
+  color:black;
+  font-weight: 200;
+}
+footer #footer_part2 .box  .box3  h2{
+    font-size: 15px;
+    padding-top: 15px;
+}
+/**/
+footer #footer_part2 .box .box4{
+    width:20%;
+    height:80vh;
+  padding-left: 30px;
+      color:gray;
+      font-family: sans-serif;
+}
+footer #footer_part2 .box  .box4  h1{
+  font-size: 15px;
+  color:black;
+  font-weight: 200;
+}
+footer #footer_part2 .box  .box4  h2{
+    font-size: 15px;
+    padding-top: 15px;
+}
+/**/
+footer #footer_part2 .box .box5{
+    width:20%;
+    height:80vh;
+padding-left: 30px;
+      color:gray;
+      font-family: sans-serif;
+}
+footer #footer_part2 .box  .box5  h1{
+  font-size: 15px;
+  color:black;
+  font-weight: 200;
+}
+footer #footer_part2 .box  .box5  h2{
+    font-size: 15px;
+    padding-top: 15px;
+}
+footer #footer_part2  .mo{
+    display: flex;
+    justify-content: center;
+    gap:8px;
+    font-family: sans-serif;
+}
+footer #footer_part2  .mo h2{
+    font-size: 18px;
+    color:gray;
+}
+footer #footer_part2 .copy{
+    color:grey;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap:30px;
+    font-family: sans-serif;
+}
+footer #footer_part2 .copy p{
+    font-size: 20px;
+}
+footer #footer_part2 .copy h4{
+    margin-left: 15%;
+    font-size: 18px;
+}
+footer #footer_part2 .c{
+    width:18px;
+    height:17px;
+    border: 2px solid gray;
+    font-size: 12px; 
+    border-radius: 50%; 
+    padding-left: 3px;
+    color:grey;
+    position: absolute;
+    top:1px;
+    margin-top: 83.90%;
+    margin-left: 21.3%;
+}
+
+
+

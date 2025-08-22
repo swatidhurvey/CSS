@@ -1,0 +1,1896 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+main{
+    width:100%;
+    height:100vh;
+}
+nav{
+    width:100%;
+    height:10vh;
+    position: fixed;
+    background-color: white;
+}
+nav #nav_part1{
+    width:100%;
+    height:10vh;
+    display: flex;
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+gap:20px;
+}
+nav #nav_part1 h1 img{
+    width:150px;
+    height:70px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 10px;
+}
+nav #nav_part1 .ex{
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-weight: 400;
+line-height: normal;
+border-radius: 20px;
+border: none;
+margin-top: 15px;
+cursor: pointer;
+}
+nav #nav_part1 .ex:hover{
+    background-color: gray;
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+nav #nav_part1 h3{
+    width:800px;
+    height:50px;
+    background-color: #E1E1E1;
+    border-radius: 20px;
+    margin-top: 15px;
+} 
+nav #nav_part1 h3:hover{
+    background-color:#E1E1E1;
+    box-shadow: 10px 10px 10px #d4cdcd;
+}
+nav #nav_part1 h3 i{
+     font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: grey;
+}
+nav #nav_part1 h3 input{
+    width:700px;
+    height:50px;
+    margin-left: 30px;
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+nav #nav_part1 .log{
+     width:100px;
+    height:50px;
+    font-size: 20px;
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-weight: 400;
+line-height: normal;
+border-radius: 20px;
+border: none;
+background-color: transparent;
+margin-top: 15px;
+}
+nav #nav_part1 .log:hover{
+    background-color: ghostwhite;
+    box-shadow: 10px 10px 10px black;
+}
+nav #nav_part1 .sing{
+     width:100px;
+    height:50px;
+    font-size: 20px;
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-weight: 400;
+line-height: normal;
+border-radius: 20px;
+border: none;
+ background-color: #E1E1E1;
+ margin-top: 15px;
+}
+nav #nav_part1 .sing:hover{
+    background-color: #CDCDC1;
+    box-shadow: 10px 10px 10px black;
+}
+nav #nav_part1 i{
+font-size: 30px;
+margin-top: 2%;
+}
+header{
+    width:100%;
+    height:100vh;
+    padding-top: 7%;
+}
+header .container{
+    width: 97%;
+    height:380vh;
+    border: 10px solid ghostwhite;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    cursor: pointer;
+    margin-left: 1%;
+    border-radius: 20px;
+    transition: all ease 1s;
+
+}
+header .container:hover{
+    box-shadow: 10px 10px 10px #CFCFCF;
+    border-top: #CDCDC1;
+     border-right: #CDCDC1;
+      border-left: #CDCDC1;
+       border-bottom: #CDCDC1;
+}
+header .container #header_part1 {
+     width:47%;
+    height:100%;
+}
+header  .container  #header_part1 :hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+header .container #header_part1 img{
+    border-radius: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+header .container #header_part1 img :hover{
+    box-shadow: 10px 10px 10px gray;
+}
+header .container #header_part2{
+     width:45%;
+    height:100%;
+    margin-left: 40px;
+}
+header  .container  #header_part2 :hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+header .container #header_part2 .item{
+    width:100%;
+    height:30vh;
+}
+header  .container  #header_part2 .item .heart{
+    width:100%;
+    height:10vh;
+    display: flex; 
+    gap:20px;
+    align-items: center;
+}
+header  .container  #header_part2 .item .heart i{
+    font-size: 30px;
+    font-weight: 400;
+}
+header  .container  #header_part2 .item .heart .save{
+    width: 75px;
+    height:50px;
+    border-radius: 20px;
+    border:none ;
+    background-color: red;
+   font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+   font-size: 20px;
+   color:white;
+   margin-left: 50%;
+}
+header  .container  #header_part2 .item .heart .save:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 10px 10px 10px black;
+}
+header  .container  #header_part2 .item h2{
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 30px;
+font-weight: 500;
+line-height: normal;
+margin-top: 15px;
+}
+header  .container  #header_part2 .item .chini{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-top: 20px;
+}
+header  .container  #header_part2 .item .chini img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+}
+header  .container  #header_part2 .item .chini h3{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 22.4px;
+color: rgb(0, 0, 0);
+}
+header  .container  #header_part2  .comment{
+    width:100%;
+    height:100%;
+}
+header  .container  #header_part2  .comment .blue:hover{
+    border :6px solid skyblue ;
+}
+header  .container  #header_part2  .comment   h1{
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+color: black;
+padding-top: 20px;
+}
+header  .container  #header_part2  .comment .sab{
+    display: flex;
+    margin-top: 25px;
+    gap:6px;
+}
+header  .container  #header_part2  .comment .sab img{
+    width:50px;
+    height:50px;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 50%;
+margin-top: 10px;
+}
+header  .container  #header_part2  .comment .sab h1{
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: normal;
+}
+header  .container  #header_part2  .comment .sab h1:hover{
+text-decoration: underline;
+}
+header  .container  #header_part2  .comment .sab p{
+    margin-top: 20px;
+    font-family: Pin-Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+
+}
+header  .container  #header_part2  .comment .sab h6 img{
+ width:25px;
+ height:25px;
+ object-fit: cover;
+ object-position: center;
+ margin-top: 20px;
+}
+header  .container  #header_part2  .comment h2 i{
+   padding-top: 20px;
+   margin-left: 10%;
+   font-weight: 400;
+}
+/*----------------------------------------------------------------------*/
+header #header_part2  .comment .in{
+    width:630px;
+    height:55px;
+    background-color: hsl(0, 12%, 89%);
+    margin-left: 16px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    padding-top: 20px;
+    gap:10px;
+    font-weight: 400;
+   border: 5px soild gray;
+   border: 4px soild steelblue;
+}
+
+header #header_part2 .comment  .in input{
+    width:70%;
+    height:80%;
+    margin-left: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
+section{
+    width:100%;
+    height:100vh;
+} 
+section #section_part1{
+    width:100%;
+    height:100vh; 
+    margin-top: 145%;
+}
+section #section_part1 h1{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 28px;
+font-weight: 700;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 40%;
+padding-top: 3%;
+
+}
+section #section_part1 .grid{
+    width:100%;
+   display: flex;
+}
+section #section_part1 .grid .box1{
+    width:25%;
+    height:100%;
+    margin-left: 5px;
+}
+section #section_part1 .grid .box1:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid .box1 img{
+    width:100%;
+    height:100%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+object-fit: cover;
+object-position: center;
+border-radius: 20px;
+}
+section #section_part1 .grid .box1 img:hover{
+    box-shadow: 10px 10px 10px #e3e4e6;
+}
+section #section_part1 .grid .box1 .overley{
+     width:20%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+section #section_part1 .grid .box1 .overley h1{
+    color:white;
+    font-size: 20px;
+    margin-top: 60px;
+}
+section #section_part1 .grid .box1 .overley .dot{
+    width:70px;
+    height:40px;
+    background-color: white;
+    display: flex;
+    gap:30px;
+    border-radius: 20px;
+    margin-left: 70%;
+    padding-top:5px ;
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+.box1 :hover .overley{
+  display: block;
+}
+section #section_part1 .grid .box1 h1{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 17px;
+color: rgb(0, 0, 0);
+}
+/*---------------------------------------------------------------------*/
+section #section_part1 .grid .box2{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid .box2:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid  .box2 img{
+    width:100%;
+    height:240%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+}
+section #section_part1 .grid .box2 h1{
+    width:170px;
+    height:100px;
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 17px;
+color: rgb(0, 0, 0);
+margin-right: 100%;
+}
+section #section_part1 .grid .box2.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+.grid :hover .overley{
+  display: block;
+}
+/* -------------------------------------------------------------- */
+
+section #section_part1 .grid .box3{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid .box3:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid .box3 img{
+    width:100%;
+    height:240%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+}
+
+section #section_part1 .grid .box3.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+/* -------------------------------------------------------------- */
+section #section_part1 .grid .box4{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid .box4:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid .box4 img{
+    width:100%;
+    height:230%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+}
+
+section #section_part1 .grid .box4.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+/* --------------------------------------------------------------------- */
+section #section_part1 .grid .box5{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid .box5:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid .box5 img{
+    width:100%;
+    height:230%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+}
+
+section #section_part1 .grid .box5.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+/* ---------------------------part2------------------------------------ */
+section #section_part1 .grid1{
+    width:100%;
+    height:;
+   display: flex;
+}
+section #section_part1 .grid1 .box1{
+    width:25%;
+    height:100%;
+    margin-left: 5px;
+}
+section #section_part1 .grid1 .box1:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid1 .box1 img{
+    width:290px;
+    height:119%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+object-fit: cover;
+object-position: center;
+border-radius: 20px;
+position: absolute;
+top:1px;
+margin-top: 215%;
+}
+section #section_part1 .grid1 .box1 img:hover{
+    box-shadow: 10px 10px 10px #e3e4e6;
+}
+section #section_part1 .grid1 .box1 .overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+.grid1 :hover .overley{
+  display: block;
+}
+
+/*---------------------------------------------------------------------*/
+section #section_part1 .grid1 .box2{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid1 .box2:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid1  .box2 img{
+    width:90%;
+    height:220%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+margin-left: 10px;
+}
+
+section #section_part1 .grid1 .box2.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+.grid :hover .overley{
+  display: block;
+}
+/* -------------------------------------------------------------- */
+
+section #section_part1 .grid1 .box3{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid1 .box3:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid1 .box3 img{
+    width:19%;
+    height:80%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 30px;
+position: absolute;
+top:1px;
+margin-top: 232%;
+}
+
+section #section_part1 .grid1 .box3.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+/* -------------------------------------------------------------- */
+section #section_part1 .grid1 .box4{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid1 .box4:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid1 .box4 img{
+    width:19%;
+    height:80%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+position: absolute;
+top:1px;
+margin-top: 232%;
+margin-left: 4px;
+}
+
+section #section_part1 .grid1 .box4.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+/* --------------------------------------------------------------------- */
+section #section_part1 .grid1 .box5{
+    width:25%;
+    height:100%;
+    margin-left: 20px;
+}
+section #section_part1 .grid1 .box5:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .grid1 .box5 img{
+    width:18%;
+    height:60%;
+    font-family: "Times New Roman";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+border-radius: 20px;
+position: absolute;
+margin-left: 9px;
+}
+
+section #section_part1 .grid1 .box5.overley{
+     width:25%;
+    height:25%;
+    background-color: gold;
+    position: absolute;
+    top:1px;
+    margin-top: 200%;
+    display: none;
+}
+/* ---------------------------part3------------------------------------ */
+section #section_part1 .item{
+    width:100%;
+    height:80%;
+    display: flex;
+    gap:20px;
+}
+section #section_part1 .item .item1{
+    width:50%;
+    height:100%;
+    border: 2px solis rgb(90, 155, 179);
+    border-radius: 20px;
+    display: flex;
+    gap:20px;
+    padding-top: 30px;
+}
+section #section_part1 .item .item1 .it{
+    width:40%;
+    height:99%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+section #section_part1 .item .item1 .it:hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .item .item1 .it img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 85%;
+    border-radius: 20px;
+}
+section #section_part1 .item .item1 .it h2{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+}
+section #section_part1 .item .item1 .it h5{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-weight: 700;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+}
+section #section_part1 .item .item2{
+    width:50%;
+    height:100%;
+    background-color: ghostwhite;
+    border:4px solid grey;
+    border-radius: 20px;
+}
+section #section_part1 .item .item2 h3{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+section #section_part1 .item .item2 h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+section #section_part1 .item .item2 .sok{
+    width:100%;
+    height:65%;
+    display: flex;
+    gap:10px;
+}
+
+section #section_part1 .item .item2 .sok .con1{
+    width:300px;
+    height:360px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+section #section_part1 .item .item2 .sok .con1 :hover{
+    box-shadow: 10px 10px 10px ghostwhite;
+}
+section #section_part1 .item .item2 .sok .con1 img{
+    font-family: "Times New Roman";
+    width:240px;
+    height:360px;
+    border-radius: 20px;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+color: rgb(0, 0, 0);
+object-fit: cover;
+object-position: center;
+}
+section #section_part1 .item .item2 .sok .con1 h4{
+margin-top: 10%;
+margin-left: 50px;
+font-family: sans-serif;
+font-weight: 600;
+}
+section #section_part1 .item .item2 .sok .con1 h5{
+    margin-left: 50px;
+font-family: sans-serif;
+font-weight: 300;
+margin-top: 10px;
+}
+section #section_part1 .item .item2 .sok .con1 h6{
+    margin-left: 50px;
+font-family: sans-serif;
+font-weight: 400;
+margin-top: 10px;
+}
+.sok .con1 .over{
+    width:300px;
+    height:300px;
+    background-color: darkslateblue;
+    display: none;
+}
+.con1 :hover .over{
+    display: block;
+}
+section #section_part1 .grid2{
+    width:100%;
+    height:100vh;
+    display: flex;
+    gap:20px;
+}
+section #section_part1 .grid2 .pic1{
+    width:400px;
+    height:700px;
+}
+section #section_part1 .grid2 .pic1 img{
+    width:100%;
+    height:90%;
+    border-radius: 20px;
+}
+section #section_part1 .grid2 .pic1 h2{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+color: rgb(0, 0, 0);
+margin-top: 20px;
+}
+section #section_part1 .grid2 .pic2{
+    width:400px;
+    height:700px;
+}
+section #section_part1 .grid2 .pic2 img{
+    width:100%;
+    height:50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+section #section_part1 .grid2 .pic3{
+    width:400px;
+    height:700px;
+}
+section #section_part1 .grid2 .pic3 img{
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+section #section_part1 .grid2 .pic3  h3{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+color: rgb(0, 0, 0);
+}
+section #section_part1 .grid2 .pic4{
+    width:400px;
+    height:700px;
+}
+section #section_part1 .grid2 .pic4 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+section #section_part1 .grid2 .pic4 h2{
+     font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+color: rgb(0, 0, 0);
+}
+section #section_part1 .grid2 .pic5{
+    width:370px;
+    height:700px;
+
+}
+section #section_part1 .grid2 .pic5 img{
+    width:100%;
+    height:90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+section #section_part1 .grid2 .pic5  h2{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 17px;
+color: rgb(0, 0, 0);
+padding-top: 10px;
+}
+section #section_part1 .last{
+    width:100%;
+    height:100vh;
+    margin-top: 50%;
+    display: flex;
+    gap:20px;
+}
+section #section_part1 .last .last1{
+    width:50%;
+    height:100%;
+    display: flex;
+    gap:20px;
+}
+section #section_part1 .last .last1 .l1{
+    width:40%;
+    height:80%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last1 .l1 img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last1 .l1 h4{
+font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 14px;
+font-weight: 900;
+line-height: 17px;
+color: rgb(0, 0, 0);
+padding-top: 20px;
+}
+section #section_part1 .last .last1 .l1 p{
+font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+color: rgb(0, 0, 0);
+}
+section #section_part1 .last  .last1  .l2{
+    width:30%;
+    height:70%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last1 .l2 img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last1 .l3{
+    width:30%;
+    height:70%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last1 .l3 img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last1 .l3 .small{
+    width:30%;
+    height:29%;
+    position: absolute;
+    top:1px;
+    left: 1px;
+    margin-top: 442%;
+    margin-left: 20%;
+    border-radius:20px ;
+}
+section #section_part1 .last .last1 .l3 .small img{
+    width: 98%;
+    height:100%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last2 {
+    width:50%;
+    height:100%;
+     border: 4px solid gray;
+    border-radius: 20px;
+}
+section #section_part1 .last .last2 p{
+font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+} 
+section #section_part1 .last .last2 h2{
+font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 28px;
+font-weight: 700;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+} 
+section #section_part1 .last .last21{
+    width:100%;
+    height:92%;
+    display: grid;
+    grid-template-columns: 170px 170px;
+    grid-template-rows: 90px 90px 90px ;
+   padding-left: 10px;
+   gap:130px;
+}
+
+section #section_part1 .last .last21 .item{
+ height:190%;
+ width:180%;
+ border-radius: 20px;
+ margin-left: 40px;
+ padding-left: 30px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+section #section_part1 .last .last21 .item img{
+    width:300%;
+    height:100%;
+    border-radius: 20px;
+}
+section #section_part1 .last .last21 .item :hover{
+    box-shadow: 10px 10px 10px skyblue;
+    background-color: slategrey;
+}
+section #section_part1 .end {
+    width:100%;
+    height:60vh;
+    display: flex;
+    gap:10px;
+}
+/* --------------------------en1------------------------------ */
+.end .en1{
+    width:20%;
+    height:100%;
+    border-radius: 20px;
+}
+.end .en1 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyen1{
+    width:19%;
+    height:50%;
+   position: absolute;
+   top:1px;
+   margin-top: 458%;
+    cursor: pointer;
+    display: none;
+}
+.en1:hover .overleyen1{
+    display: block;
+}
+.overleyen1 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon1{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 100%;
+}
+.icon1 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon1 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon1 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  21px;
+    font-family: sans-serif;
+}
+.icon1 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+.icon1 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+/* ------------------en2------------------------------------------- */
+.end .en2{
+    width:20%;
+    height:70%;
+    border-radius: 20px;
+}
+.end .en2 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyen2{
+   width:19%;
+    height:40%;
+   position: absolute;
+   top:1px;
+   margin-top: 456%;
+    cursor: pointer;
+    display: none;
+}
+.en2:hover .overleyen2{
+    display: block;
+}
+.overleyen2 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon2{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 80%;
+}
+.icon2 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon2 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon2 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  10px;
+    font-family: sans-serif;
+}
+.icon2 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+}
+.icon2 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+}
+.end .en2 h5{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+}
+.end .en2 p{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+color: rgb(0, 0, 0);
+}
+/* ---------------en3----------------------------------- */
+.end .en3{
+    width:20%;
+    height:100%;
+   border-radius: 20px;
+}
+.end .en3 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyen3{
+    width:19%;
+    height:50%;
+    position: absolute;
+   top:1px;
+   margin-top: 458%;
+    cursor: pointer;
+    display: none;
+}
+.en3:hover .overleyen3{
+    display: block;
+}
+.overleyen3 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon3{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 100%;
+}
+.icon3 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon3 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon3 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  21px;
+    font-family: sans-serif;
+}
+.icon3 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+.icon3 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+/* -----------------------en4----------------------- */
+.end .en4{
+    width:20%;
+    height:100%;
+    border-radius: 20px;
+}
+.end .en4 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyen4{
+    width:19%;
+    height:50%;
+    position: absolute;
+   top:1px;
+   margin-top: 458%;
+    cursor: pointer;
+    display: none;
+}
+.en4:hover .overleyen4{
+    display: block;
+}
+.overleyen4 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon4{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 90%;
+}
+.icon4 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon4 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon4 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  21px;
+    font-family: sans-serif;
+}
+.icon4 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+.icon4 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+/* ----------------------en5-------------------------- */
+.end .en5{
+    width:20%;
+    height:70%;
+    border-radius: 20px;
+}
+.end .en5 img{
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+}
+.overleyen5{
+    width:19%;
+    height:40%;
+     position: absolute;
+   top:1px;
+   margin-top: 456%;
+    cursor: pointer;
+    display: none;
+}
+.en5:hover .overleyen5{
+    display: block;
+}
+.overleyen5 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon5{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 80%;
+}
+.icon5 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon5 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon5 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  10px;
+    font-family: sans-serif;
+}
+.icon5 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+}
+.icon5 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+} 
+.end .en5 p{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+}
+/* --------------------------------end-part1-------------------------------------- */
+section #section_part1 .end1 {
+    width:100%;
+    height:60vh;
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+}
+/* --------------------------on1------------------------------ */
+.end1 .on1{
+    width:20%;
+    height:100%;
+    border-radius: 20px;
+}
+.end1 .on1 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyenon1{
+    width:19%;
+    height:50%;
+   position: absolute;
+   top:1px;
+   margin-top: 490%;
+    cursor: pointer;
+    display: none;
+}
+.on1:hover .overleyenon1{
+    display: block;
+}
+.overleyenon1 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon1{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 100%;
+}
+.icon1 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon1 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon1 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  21px;
+    font-family: sans-serif;
+}
+.icon1 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+.icon1 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+/* ------------------on2------------------------------------------- */
+.end1 .on2{
+    width:20%;
+    height:70%;
+    border-radius: 20px;
+}
+.end1 .on2 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyenon2{
+   width:19%;
+    height:40%;
+   position: absolute;
+   top:1px;
+   margin-top: 488%;
+    cursor: pointer;
+    display: none;
+}
+.on2:hover .overleyenon2{
+    display: block;
+}
+.overleyenon2 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon2{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 80%;
+}
+.icon2 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon2 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon2 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  10px;
+    font-family: sans-serif;
+}
+.icon2 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+}
+.icon2 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+}
+.end1 .on2 h5{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+}
+.end1 .on2 p{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+color: rgb(0, 0, 0);
+}
+/* ---------------on3----------------------------------- */
+.end1 .on3{
+    width:20%;
+    height:100%;
+   border-radius: 20px;
+}
+.end1 .on3 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyenon3{
+    width:19%;
+    height:50%;
+    position: absolute;
+   top:1px;
+   margin-top: 490%;
+    cursor: pointer;
+    display: none;
+}
+.on3:hover .overleyenon3{
+    display: block;
+}
+.overleyenon3 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon3{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 100%;
+}
+.icon3 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon3 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon3 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  21px;
+    font-family: sans-serif;
+}
+.icon3 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+.icon3 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+/* -----------------------on4----------------------- */
+.end1 .on4{
+    width:20%;
+    height:100%;
+    border-radius: 20px;
+}
+.end1 .on4 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.overleyenon4{
+    width:19%;
+    height:50%;
+    position: absolute;
+   top:1px;
+   margin-top: 490%;
+    cursor: pointer;
+    display: none;
+}
+.on4:hover .overleyenon4{
+    display: block;
+}
+.overleyenon4 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon4{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 90%;
+}
+.icon4 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon4 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon4 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  21px;
+    font-family: sans-serif;
+}
+.icon4 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+.icon4 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 11px;
+}
+/* ----------------------on5-------------------------- */
+.end1 .on5{
+    width:20%;
+    height:70%;
+    border-radius: 20px;
+}
+.end1 .on5 img{
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+}
+.overleyenon5{
+    width:19%;
+    height:40%;
+     position: absolute;
+   top:1px;
+   margin-top: 487%;
+    cursor: pointer;
+    display:none ;
+}
+.on5:hover .overleyenon5{
+    display: block;
+}
+.overleyenon5 h2{
+    padding-top: 30%;
+    color: #CDCDC1;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.icon5{
+    width:100%;
+    height:20%;
+   position: absolute;
+   top:1px;
+   margin-top: 80%;
+}
+.icon5 .bt{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.icon5 .bt .bt1{
+    width:40%;
+    height:73%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.icon5 .bt .bt1 h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 7px;
+    padding-top:  10px;
+    font-family: sans-serif;
+}
+.icon5 .bt .bt2{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+}
+.icon5 .bt .bt3{
+width:25%;
+height:73%;
+background-color: white;
+border-radius: 30%;
+font-size: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+padding-top: 8px;
+} 
+.end1 .on5 p{
+    font-family: "Pin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.8px;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+}
+/* ---------------------------------------------------------------------- */

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="project4.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <div id="nav_part1">
+                <h1><img src="data:image/png;base64,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" alt=""></h1>
+                <button class="ex">Explore<i class="ri-arrow-down-s-line"></i></button>
+                <h3><i class="ri-search-line"></i><input type="text" placeholder="Search for "></h3>
+                <button class="log">Log in</button>
+                <button class="sing">Sing up</button> 
+                <i class="ri-arrow-down-s-line"></i> 
+            </div>
+        </nav>
+        <!--  -->
+        <header>
+            <div class="container">
+            <div id="header_part1">
+                <img src="https://i.pinimg.com/736x/97/5f/9b/975f9bbcd90a4ca39fc740b83fb75839.jpg" alt="">
+            </div>
+            <div id="header_part2">
+                <div class="item">
+               <div class="heart">
+                 <h1><i class="ri-heart-3-line"></i></h1>
+                 <h1>60</h1>
+                 <h1><i class="ri-upload-2-line"></i></h1>
+                 <h1><i class="ri-more-fill"></i></h1>
+                  <button class="save">Save</button>
+               </div>
+               <!-- heart -->
+                <h2>Testimonial Design</h2>
+                <div class="chini">
+                    <img src="https://i.pinimg.com/75x75_RS/0e/1f/10/0e1f10ebf5d4080d09378b85953b7220.jpg" alt="">
+                    <h3>小志</h3>
+                </div>
+                <!-- chini -->
+            </div>
+            <!-- item -->
+             <div class="comment">
+                <h1>4 Comments</h1>
+                <div class="blue">
+                <div class="sab">
+                    <img src="https://i.pinimg.com/75x75_RS/aa/07/7f/aa077f129664b81cabe354f5b4158aa9.jpg" alt="">
+                  <h1>Sadbin Abedin | WordPress Web Designer </h1> 
+                  <p>Greate Worke</p>     
+                </div>
+                <!-- sab -->
+                 <h2><i class="ri-more-fill"></i></h2>
+                 </div>
+                 <!-- blue -->
+
+             <!-- ------------------------part2---------------------- -->
+
+             <div class="blue">
+                <div class="sab">
+                    <img src="https://i.pinimg.com/75x75_RS/9d/77/65/9d7765fc92d1a73ab41c4de7f31650f7.jpg" alt="">
+                  <h1> Emily </h1>
+                    <h1> Carter </h1>
+         
+                  <p>Such a great balance of bold elements and simplicity!</p>     
+                </div>
+                <!-- sab -->
+                 <h2><i class="ri-more-fill"></i></h2>
+                 </div>
+                 <!-- blue -->
+        
+             <!-- --------------------------------------------------- -->
+              <!-- ---------------------part3---------------------------- -->
+
+              <div class="blue">
+                <div class="sab">
+                    <img src="https://i.pinimg.com/75x75_RS/6c/1c/08/6c1c086ddc2cb22b8f27a0c3d29e8f84.jpg" alt="">
+                  <h1> Mohashin </h1>
+                  <p> Amazing work, keep it up.</p>
+                         </div>
+                <!-- sab -->
+                 <h2><i class="ri-more-fill"></i></h2>
+                 </div>
+                 <!-- blue -->
+
+               <!-- -----------------part4------------------------------ -->
+                <div class="blue">
+                <div class="sab">
+                    <img src="https://i.pinimg.com/75x75_RS/ae/45/94/ae459442097439548f9ef3d6c42993a9.jpg" alt="">
+                  <h1> MS Web Designs </h1>
+                  <p> outstanding design layout  </p>
+                  <h6><img src="https://www.pngarts.com/files/18/Hand-Emoji-Free-PNG-HQ-Image.png" alt=""></h6>
+                 <h6> <img src="https://www.pngarts.com/files/18/Hand-Emoji-Free-PNG-HQ-Image.png" alt=""></h6>
+                         </div>
+                <!-- sab -->
+                 <h2><i class="ri-more-fill"></i></h2>
+                 </div>
+                 <!-- blue -->
+
+               <!-- --------------------------------------------------- -->
+
+                <div class="in">
+                  <input type="text"placeholder="Add a comment">
+                  <h2><i class="ri-emotion-line"></i></h2>
+                  <h2><i class="ri-image-2-line"></i></h2>
+                  <h2><i class="ri-gallery-line"></i></h2>
+                  </div>
+                  <!-- in -->
+               </div>
+             <!-- comment -->
+            </div>
+            <!-- header_part2 -->
+             </div>
+        <!-- container -->
+        </header>
+        <!-- --------------------------------------------------------------- -->
+         <section>
+          <div id="section_part1">
+              <h1>More to explore</h1>
+              <div class="grid">
+                <div class="box1">
+                   <img src="https://i.pinimg.com/236x/dd/d4/77/ddd477b7abe8fef04fdf3f20b2c77297.jpg" alt="">
+                     <h1>Landing Page Animation</h1>
+                   <div class="overley">
+                        <h1>Open</h1> 
+                        <div class="dot"> 
+                         <i class="ri-arrow-down-line"></i>
+                      <i class="ri-more-fill"></i> 
+                        </div>
+                        <!-- h -->
+                   </div>
+                   <!-- overley -->
+            
+                </div>
+                <!-- .box1 -->
+                <!-- ------------------------------------------------------- -->
+
+                 <div class="box2">
+                  <img src="https://i.pinimg.com/videos/thumbnails/originals/83/60/8c/83608c3a49a11f5dc5564f7a79b2b842.0000000.jpg" alt="">
+                  <h1>Construction Website UI UX Design, Figma Design, App Design. 🏗️📞🧱🧑‍🔧 🛠️ 1. Clear Navigation & Structure 2. 🔥 Web Design... more</h1>
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+
+                <!-- -------------------------------------------------------- -->
+                  <div class="box3">
+                    <img src="https://i.pinimg.com/videos/thumbnails/originals/a3/97/a1/a397a10fba423f2f0aed0fc2daa59b51.0000000.jpg" alt="">
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+
+                <!-- ---------------------------------------------------------- -->
+                  <div class="box4">
+                  <img src="https://i.pinimg.com/236x/d4/19/fe/d419fe41911a7315721b53c34a8d7fe9.jpg" alt="">   
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+
+                <!-- ----------------------------------------------------------- -->
+                  <div class="box5">
+                    <img src="https://i.pinimg.com/236x/a0/c7/06/a0c7060a47f0005fdb2464f04d842237.jpg" alt="">
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+                 <!-- ----------------------------------------------------------- -->
+              </div>
+              <!-- grid-->
+
+
+              <!-- --------------------------------------------part2 -->
+
+                <div class="grid1">
+                <div class="box1">
+                  <img src="https://i.pinimg.com/236x/60/18/ec/6018ec864b9222da7d5043c297c068ac.jpg" alt="">                  
+                   <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+            
+                </div>
+                <!-- .box1 -->
+                <!-- ------------------------------------------------------- -->
+
+                 <div class="box2">
+                  <img src="https://i.pinimg.com/236x/0a/58/43/0a5843cbe64cfba5c6a9b87f5bdffdc9.jpg" alt="">
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+
+                <!-- -------------------------------------------------------- -->
+                  <div class="box3">
+                  <img src="https://i.pinimg.com/236x/25/15/57/2515574dd23de0e9a1fef95039865795.jpg" alt="">
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+
+                <!-- ---------------------------------------------------------- -->
+                  <div class="box4">
+                    <img src="https://i.pinimg.com/236x/99/27/08/9927086436fdedd5bf145a644bef8dca.jpg" alt="">
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+
+                <!-- ----------------------------------------------------------- -->
+                  <div class="box5">
+                    <img src="https://i.pinimg.com/236x/42/28/cd/4228cd21fded26fd3cb6c63472296145.jpg" alt="">
+                  <div class="overley">
+                         
+                   </div>
+                   <!-- overley -->
+                </div>
+                <!-- .box1 -->
+                 <!-- ----------------------------------------------------------- -->
+              </div>
+              <!-- grid1-->
+
+              <!-- ---------------------------------------------------------- -->
+                <div class="item">
+            <div class="item1">
+             <div class="it"><img src="https://i.pinimg.com/236x/35/e8/c7/35e8c7fcd0cf39f90b0c114123d9da44.jpg" alt="">
+              <h2>website design inspiration business products</h2>
+            </div>
+             <div class="it"><img src="https://i.pinimg.com/170x/78/fc/3d/78fc3d67ed54dd5ecbba5ddefd406ea3.jpg" alt="">
+             <h2>Look Legit Online in 7 Days</h2>
+             <h5>**🚀 Professional Website Design & Development** </h5>
+            </div> 
+             <div class="it"><img src="https://i.pinimg.com/236x/15/89/37/158937be6ecca8ff494649b10d4d2c54.jpg " alt="">
+              <h2>Stunning Beauty & Cosmetic UI Design </h2>
+            </div>    
+            </div>
+            <!-- item1 -->
+             <div class="item2">
+                <h3>
+                  Pepole with a similar taste
+                </h3>
+                <h2>Explore related boards</h2>
+                <!--  -->
+                <div class="sok">
+                 <div class="con1">
+                  <img src="https://i.pinimg.com/170x/ce/a2/0a/cea20a3764963b7f7c5461623290ecf0.jpg" alt="">
+                  <h4>SOKUTSUKU</h4>
+                 <h5>Takumi Morimoto</h5>
+                 <h6>45 Pins .2mo</h6>
+                   <div class="over">
+
+                   </div>
+                  <!-- over -->
+                 </div>
+                 <!----- .con1 -->
+              
+                 <!-- ======================= -->
+                   <div class="con1">
+                    <img src="https://i.pinimg.com/236x/f0/5c/c0/f05cc0a28c51dc88f99abd41ede56bf5.jpg" alt="">
+                    <h4>for presentations</h4>
+                 <h5>Vleee</h5>
+                 <h6>399 Pins.2h</h6>
+                   <div class="over">
+
+                   </div>
+                  <!-- over -->
+                 </div>
+                <!-- con1 -->
+                 <!-- --------------- -->
+                   <div class="con1">
+                    <img src="https://i.pinimg.com/236x/28/fa/ad/28faad3a80dbd3c9d513b0870671f3a2.jpg" alt="">
+                    <h4>UI/UX</h4>
+                 <h5>A6</h5>
+                 <h6>963 Pins.5h</h6>
+                   <div class="over">
+
+                   </div>
+                  <!-- over -->
+                 </div>
+                 <!----- .con1 -->
+                </div>
+                <!-- sok -->
+             </div>
+             <!-- item2 --------------------------------------------->
+          </div>
+          <!-- item-------------------------------------------------- -->
+          <div class="grid2">
+           <div class="pic1">
+            <img src="https://i.pinimg.com/236x/a4/7c/bc/a47cbc87727dd4e539198e97d78ea250.jpg" alt="">
+            <h2>Landing Page 🌐 Marketiva - Digital Marketing Agency Website UI Figma in 2024 | Web design mark</h2>
+            <img src="https://i.pinimg.com/170x/31/78/58/31785834d02c347b5739abbe7fe13753.jpg" alt="">
+            <h2>E-Learning Website Design: Responsive Landing Page Inspiration for Your Business</h2>
+           </div>
+            <div class="pic2">
+              <img src="https://i.pinimg.com/236x/72/a8/74/72a87436494ebcd860f25e8792a87fd1.jpg" alt="">
+              <img src="https://i.pinimg.com/170x/62/94/84/629484b82b3884a7736910cf56159a52.jpg" alt="">
+              <img src="https://i.pinimg.com/236x/a7/05/76/a70576c18e3f6f5503341c69012e324e.jpg" alt="">
+              <img src="https://i.pinimg.com/236x/ed/97/ee/ed97ee8e0c088156bf72f874a3a5aebf.jpg" alt="">
+            </div>
+             <div class="pic3">
+              <img src="https://i.pinimg.com/236x/d6/64/2a/d6642a9fe6cca36b0f65c6240852ad51.jpg" alt="">
+              <h3>E-Learning Website Design: Responsive Landing Page Inspiration for Your Business</h3>
+              <img src="https://i.pinimg.com/236x/a1/10/79/a1107932ae4e30cada218c06d30748ca.jpg" alt="">
+             </div>
+              <div class="pic4">
+                <img src="https://i.pinimg.com/236x/b3/6d/da/b36dda1fae3bd7b52f38a0a2a7dd2f05.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/a9/f0/41/a9f041921f2cdb43c70c05f81fdd871d.jpg" alt="">
+                <h2>Modern Medical Website UI Design – Clean, Trusted & User-Focused</h2>
+              </div>
+               <div class="pic5">
+                <img src="https://i.pinimg.com/236x/5a/43/b5/5a43b5aee23c8b10d8b4e6585aacecab.jpg" alt="">
+                <h2>I will design modern website and landing page in figma, xd, or PSD format</h2>
+                <img src="https://i.pinimg.com/170x/76/ea/41/76ea41dcec57d987c09117d7dc653db6.jpg" alt="">
+                <h2>Look Legit Online in 7 Days
+**🚀 Professional Website Design & Development**</h2>
+               </div>
+               <!-- pic5 -->
+          </div>
+      
+            <!-- grid2 ----------------------------------------->
+           <div class="last">
+         <div class="last1">
+           <div class="l1"><img src="https://i.pinimg.com/170x/7d/78/9a/7d789a5dcc5d028818d72e63d13263c1.jpg " alt="">
+          <h4>UI& UX Web Design</h4>
+          <p>An example of a website I designed inspired by a few example</p>
+        </div>
+        <!-- l1 -->
+           <div class="l2"><img src="https://i.pinimg.com/236x/f6/0f/c9/f60fc934c7ae9b7735c67101e7210922.jpg" alt=""></div>
+           <div class="l3"><img src="https://i.pinimg.com/236x/15/95/fc/1595fc264fe73bee6adbbd656298f633.jpg" alt="">
+            <div class="small"><img src="https://i.pinimg.com/236x/5d/35/ed/5d35ed4d79cd6ae80dc3e8f38eee689e.jpg" alt=""></div>
+           </div>
+           <!-- l3 -->
+         </div>
+         <!-- last1 -->
+          <div class="last2">
+            <p>We think you’ll love these</p>
+            <h2>Related Interests</h2>
+         <div class="last21">
+            <div class="item item-1"><img src="https://i.pinimg.com/236x/65/9c/82/659c829af61049a96e66118946bd4a49.jpg " alt=""></div>
+            <div class="item"><img src="https://i.pinimg.com/236x/9e/1e/3d/9e1e3d487ce14255d5a05087b3a52fec.jpg" alt=""></div>
+            <div class="item"><img src="https://i.pinimg.com/236x/4f/72/6e/4f726e8c6c1959eec5530640b4c84a36.jpg" alt=""></div>
+            <div class="item"><img src="https://i.pinimg.com/236x/96/da/6e/96da6e0c16e72acb19b1acd00b4849e6.jpg" alt=""></div>
+            <div class="item item-4"><img src="https://i.pinimg.com/170x/fa/cd/e2/facde2d82ccaff4cb45262ec8b68ebe0.jpg" alt=""></div>
+            <div class="item  item-4"><img src="https://i.pinimg.com/236x/69/f9/bd/69f9bd5d52c591727e78adba50e887a0.jpg" alt=""></div>
+         </div>
+         <!-- last21 -->
+         </div>
+         <!-- last2 -->
+           </div>
+
+    <!-- last -->
+       <div class="end">
+         <div class="en1">
+          <img src="https://i.pinimg.com/236x/bb/d4/ad/bbd4ade4d0734dbf4169e1ef6e181ee1.jpg" alt="">
+          <div class="overleyen1">
+            <h2>Open</h2>
+             <div class="icon1">
+                <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon1 -->
+          </div>
+          <!-- overleyen1 -->
+         </div>
+         <!-- en1 -->
+          <!-- -------------------------------------------------- -->
+         <div class="en2">
+          <img src="https://i.pinimg.com/236x/f7/79/c9/f779c920510345dd64cb77abf99de010.jpg" alt="">
+           <div class="overleyen2">
+             <h2>Open</h2>
+            <div class="icon2">
+             <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon2 -->    
+          </div>
+          <!-- overleyen2 -->
+           <h5>website design inspiration business products</5>
+           <p>Do you want to create a sales page that helps to convert your visitors. </p>
+         </div>
+         <!-- en2 -->
+          <!-- -------------------------------------------- -->
+         <div class="en3">
+          <img src="https://i.pinimg.com/236x/e4/b9/8c/e4b98c9813867193f4eaaaaaec9bcbe1.jpg" alt="">
+            <div class="overleyen3">
+               <h2>Open</h2>
+              <div class="icon3">
+               <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon3 -->
+          </div>
+          <!-- overleyen3 -->
+         </div>
+         <!-- en3 -->
+          <!-- ------------------------------------------------- -->
+         <div class="en4">
+            <img src="https://i.pinimg.com/170x/66/3e/d6/663ed6aec13c1fd3f2d453eec4886d2c.jpg" alt="">
+            <div class="overleyen4">
+              <h2>Open</h2>
+             <div class="icon4">
+               <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon4 -->
+          </div>
+          <!-- overleyen4 -->
+         </div>
+         <!-- en4 -->
+          <!-- ---------------------------- -->
+         <div class="en5">
+           <img src="https://i.pinimg.com/236x/4d/23/a2/4d23a22572d08f4bed721c0386a41616.jpg" alt="">   
+           <div class="overleyen5">
+            <h2>Open</h2>
+              <div class="icon5">
+                <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+                 
+             </div>
+             <!-- icon5 -->
+          </div>
+          <!-- overleyen5 -->
+            <p>website design inspiration business products</p>
+         </div>
+           <!-- en5 -->
+       </div>
+       <!-- end -->
+
+       <!-- -------------------------------------------------------------- -->
+         <div class="end1">
+         <div class="on1">
+          <img src="https://i.pinimg.com/236x/6c/93/91/6c93917c6851a030160faa48016054a1.jpg" alt="">
+          <div class="overleyenon1">
+            <h2>Open</h2>
+             <div class="icon1">
+                <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon1 -->
+          </div>
+          <!-- overleyenon1 -->
+         </div>
+         <!-- on1 -->
+          <!-- -------------------------------------------------- -->
+         <div class="on2">
+          <img src="https://i.pinimg.com/170x/fa/dd/f2/faddf29cf8234d3904c00b3a10871af5.jpg" alt="">
+           <div class="overleyenon2">
+             <h2>Open</h2>
+            <div class="icon2">
+             <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon2 -->    
+          </div>
+          <!-- overleyenon2 -->
+           <h5>website design inspiration business products</5>
+           <p>Do you want to create a sales page that helps to convert your visitors. </p>
+         </div>
+         <!-- on2 -->
+          <!-- -------------------------------------------- -->
+         <div class="on3">
+          <img src="https://i.pinimg.com/170x/25/0e/04/250e0422b2ed4dc72bff1adea720001c.jpg" alt="">
+            <div class="overleyenon3">
+               <h2>Open</h2>
+              <div class="icon3">
+               <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon3 -->
+          </div>
+          <!-- overleyenon3 -->
+         </div>
+         <!-- on3 -->
+          <!-- ------------------------------------------------- -->
+         <div class="on4">
+          <img src="https://i.pinimg.com/236x/7b/e7/99/7be799155247d17beabec9a21ec51edf.jpg" alt="">
+            <div class="overleyenon4">
+              <h2>Open</h2>
+             <div class="icon4">
+               <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+             </div>
+             <!-- icon4 -->
+          </div>
+          <!-- overleyenon4 -->
+         </div>
+         <!-- on4 -->
+          <!-- ---------------------------- -->
+         <div class="on5">
+          <img src="https://i.pinimg.com/236x/9a/85/9d/9a859ddb9f6b87719ff54d31ad8f16b4.jpg" alt="">
+           <div class="overleyenon5">
+            <h2>Open</h2>
+              <div class="icon5">
+                <div class="bt">
+                 <div class="bt1">
+                    <h3>  <i class="ri-arrow-right-up-line"></i>Visite Site</h3>
+                 </div>
+                 <!-- bt1 -->
+                   <div class="bt2">
+                     <i class="ri-download-2-line"></i>
+                 </div>
+                 <!-- bt2 -->
+                   <div class="bt3">
+                     <i class="ri-more-fill"></i>
+                 </div>
+                 <!-- bt3 -->
+                </div>
+                <!-- bt -->
+                 
+             </div>
+             <!-- icon5 -->
+          </div>
+          <!-- overleyenon5 -->
+            <p>website design inspiration business products</p>
+         </div>
+           <!-- on5 -->
+       </div>
+       <!-- end1 -->
+
+
+       <!-- ========================================================= -->
+          </div>
+          <!-- section_part1 -->
+         </section>
+    </main>
+</body>
+</html>

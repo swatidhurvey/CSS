@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="project3.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <div id="nav_part1">
+                <h1><img src="data:image/png;base64,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" alt=""></h1>
+                <button class="ex">Explore<i class="ri-arrow-down-s-line"></i></button>
+                <h3><i class="ri-search-line"></i><input type="text" placeholder="Search for "></h3>
+                <button class="log">Log in</button>
+                <button class="sing">Sing up</button> 
+                <i class="ri-arrow-down-s-line"></i>
+            </div>
+        </nav>
+        <!--  -->
+        <header>
+            <div id="header_part1">
+                <img src="https://i.pinimg.com/736x/80/b2/b9/80b2b921d3922d8054e0e66ce8ca3511.jpg" alt="">
+            </div>
+            <div id="header_part2">
+                <div class="container1">
+                    <div class="heart">
+                    <h3><i class="ri-heart-3-line"></i></h3>
+                    <h3>165</h3>
+                    <h3><i class="ri-upload-2-line"></i></h3>
+                    <h3><i class="ri-more-fill"></i></h3>
+                    <button class="save">Save</button>
+                    </div>
+                    <h1>I Will Build a Professional</h1>
+                    <h1>Squarespace Website – Sleek, Fast &</h1>
+                    <h1>SEO-Friendly</h1>
+                    <div class="p1">
+                    <p>Are you looking for a professional, sleek, and high-performing</p>
+                    <p>Squarespace website that stands out? Look no further! I specialize</p>
+                    <p>Squarespace website that stands out? Look no further! I specialize <i class="ri-more-fill"></i>more</p>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="container2">
+                  <div class="women">
+                    <img src="https://i.pinimg.com/75x75_RS/f8/0a/31/f80a31f38b9679cc94df932b631dbbfd.jpg" alt="">
+                    <h2>Iyanuoluwa Racheal Adegoke</h2>
+                  </div>
+                  <h1>4 Comment</h1>
+                  <div class="ta">
+                      <h4>T</h4>
+                    <h2>ta</h2>
+                    <h3>Tisha</h3>
+                    <p> it's her design</p>
+                  </div>
+                  <h6><i class="ri-more-line"></i></h6>
+                  <!-- ta -->
+                  <!--  -->
+                  <div class="women2">
+                    <img src="https://i.pinimg.com/75x75_RS/f8/0a/31/f80a31f38b9679cc94df932b631dbbfd.jpg" alt="">
+                    <p><a href="">lyanuoluwa Racheal Adegoke</a>Message me for more 
+                    information or if you want to get your website design or 
+                    redesign I am here for you!!!</p>
+                  </div>
+                   <h6><i class="ri-more-line"></i></h6>
+                  <!-- women2 -->
+                   <div class="olack">
+                    <img src="https://i.pinimg.com/75x75_RS/b3/ac/b0/b3acb0627152e8a2552051b919e2d9ca.jpg" alt="">
+                   <h2>Olack.agency|</h2>
+                   <h2>Website Design Agency</h2>
+                   <p>Excellent Design</p>
+                   </div>
+                  <h6> <i class="ri-more-line"></i></h6>
+                   <!-- olack -->
+                    <div class="olack">
+                    <img src="https://i.pinimg.com/75x75_RS/b3/ac/b0/b3acb0627152e8a2552051b919e2d9ca.jpg" alt="">
+                   <h2>Olack.agency|</h2>
+                   <h2>Website Design Agency</h2>
+                   <p>Excellent Design</p>
+                   </div>
+                  <h6><i class="ri-more-line"></i></h6>
+                    <!-- olck -->
+                  <div class="in">
+                  <input type="text"placeholder="Add a comment">
+                  <h2><i class="ri-emotion-line"></i></h2>
+                  <h2><i class="ri-image-2-line"></i></h2>
+                  <h2><i class="ri-gallery-line"></i></h2>
+                  </div>
+                  <!--  -->
+                </div>
+            </div>
+            <!--  -->
+        </header>
+        <section>
+            <div class="section_part1">
+                 <h1>More to explore</h1>
+                 <div class="first">
+                <div class="box">
+                    <img src="https://i.pinimg.com/236x/96/b1/d5/96b1d5e1e4e759514611d4d1603d2132.jpg" alt="">
+  
+                    <div class="overley">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                     <h2>Transform Your Vision: App & Web Design Services for 2025</h2>
+                     <p>Transform your vision with our app and web design services tailored for 2025. </p>
+                     <!--  -->
+
+                     <div class="bo1">
+                     <img src="https://i.pinimg.com/236x/ab/e1/1f/abe11f3d859301c003dd555ee03e1da1.jpg" alt="">
+                     <div class="overleybo1">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                     </div>
+                     <!-- bo1 -->
+
+
+
+                </div>
+             <!-- box -->
+              <!-- --------------------------part1----------------------------------------------------- -->
+                <div class="box1">
+                  <img src="https://i.pinimg.com/236x/d3/93/f7/d393f792acda93d12b1a405f3ca044fe.jpg" alt="">
+                    <div class="overley1">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                     
+                  <div class="ms">
+                   <img src="https://i.pinimg.com/236x/dc/f2/22/dcf2223b7551a313c2aaf176f684ccfa.jpg" alt=""> 
+                      <div class="overleyms">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                     
+                 </div>
+                 <!-- ms -->
+                <h2>  <img src="https://i.pinimg.com/170x/13/f3/36/13f33689df5074244d547e20778f738b.jpg" alt=""></h2>
+                </div>
+             <!-- box -->
+
+
+
+              <!-- --------------------------part2----------------------------------------------------- -->
+                <div class="box2">
+                    <img src="https://i.pinimg.com/236x/4f/72/6e/4f726e8c6c1959eec5530640b4c84a36.jpg" alt="">
+                    <div class="overley2">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                       
+
+
+                    <div class="find">
+                   <img src="https://i.pinimg.com/236x/99/27/08/9927086436fdedd5bf145a644bef8dca.jpg" alt="">
+                   
+                    <div class="overleyfind">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                   </div>
+                   <!-- -----find----------------------------- -->
+                    <h2> <img src="https://i.pinimg.com/236x/94/d7/41/94d741c780904f6ed86d8cb210ec9698.jpg" alt=""></h2>
+                </div>
+             <!-- box -->
+              <!-- --------------------------part3----------------------------------------------------- -->
+                  <div class="box3">
+                    <img src="https://i.pinimg.com/236x/37/4e/6d/374e6df0f5ca18a925aae87ccfc4a04a.jpg" alt="">
+                    <div class="overley3">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                     <div class="dive">
+                  <img src="https://i.pinimg.com/236x/ce/08/af/ce08af8058cf6214925a605728175788.jpg" alt="">
+                  <div class="overleydive">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                  </div>
+                  <!-- dive------- -->
+                 <h2>Website Design</h2>
+                 <p>Transform your vision with our app and web design services tailored for 2025. </p>
+                </div>
+             <!-- box 3-->
+              <!-- --------------------------part4----------------------------------------------------- -->
+                <div class="box4 ">
+                    <img src="https://i.pinimg.com/236x/cd/47/8a/cd478a4ec7c991711521c8806ca5ab16.jpg" alt="">
+                    <div class="overley4">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit </div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                     <div class="dub">
+                  <img src="https://i.pinimg.com/170x/1b/1d/c6/1b1dc6a841c5cf793a8c0b2860f8f54a.jpg" alt=""> 
+                   <div class="overleydub">
+                        <h3>Open</h3> 
+                          <div class="excit">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit </div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excit -->
+                    </div>
+                    <!-- overley -->
+                  </div>
+                   <!--dub--------------------------  -->
+                   <h2>Website Design</h2>
+                 <p>Transform your vision with our app and web design services tailored for 2025. </p>
+                </div>
+             <!-- box 4-->
+              <!-- --------------------------part5----------------------------------------------------- -->
+              </div>
+              <!-- frist -->
+
+              <div class="second">
+                <div class="container">
+                <div class="con1">
+                  <img src="https://i.pinimg.com/236x/71/c5/69/71c569cb2bffcdb9bb7e0f78866a30ea.jpg" alt="">
+                  <div class="overleycon1">
+                        <h3>Open</h3> 
+                          <div class="excitcon1">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site </div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excitcon1 -->
+                    </div>
+                    <!-- overleycon1 -->
+                  </div> 
+                <!-- con1 -->
+                 <div class="con2">
+                  <img src="https://i.pinimg.com/236x/40/45/e2/4045e284b91af7042ea248d8d77e4702.jpg" alt="">
+                   <div class="overleycon2">
+                        <h3>Open</h3> 
+                          <div class="excitcon2">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excitcon2 -->
+                    </div>
+                    <!-- overleycon2 -->
+                 </div>
+                 <!-- con2 -->
+                  <div class="con3">
+                   <h2>Explore related boards</h2>
+                   <div class="co">
+                    <div class="co1"><img src="https://i.pinimg.com/236x/75/bb/2a/75bb2a0c837fd7056197e7ac192646bd.jpg" alt="">
+                      <h2>organic farming </h2>
+                      <h5>Sreeja Pramanick</h5>
+                      <h6>65 Pins .3w</h6>
+                    </div>
+                    <!-- co1 -->
+                    <div class="co2"><img src="https://i.pinimg.com/236x/04/5d/7a/045d7a81ff9205b8c69e113f0e287344.jpg" alt="">
+                      <h2>Informatique</h2>
+                      <h5>Corneille Nkwel</h5>
+                      <h6>25 Pins .3d</h6>
+                    </div>
+                    <!-- co2 -->
+                    <div class="co3"><img src="https://i.pinimg.com/236x/24/6d/19/246d1920e2f366837a43f96338606220.jpg" alt="">
+                      <h2>NW-Inspiration -web Design</h2>
+                      <h5>UX-max + 1</h5>
+                      <h6>270 pins .1w</h6>
+                    </div>
+                    <!-- co3 -->
+                   </div>
+                   <!-- co -->
+                  </div> 
+                  <!-- con3 -->
+                </div> 
+                <!-- container -->
+                 <div class="house">
+                   <div class="hou1">
+                    <img src="https://i.pinimg.com/236x/34/49/f9/3449f9242a02ba15cecbc6ffa9dd6da6.jpg" alt="">
+                     <div class="overleyhou1">
+                        <h3>Open</h3> 
+                          <div class="excithou1">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excithou1 -->
+                </div>
+                <!-- overleyhou1 -->
+                   <h2>
+Digital Marketing Agency Website</h2>
+                   </div>
+                   <!-- hou1 -->
+                   <div class="hou2">
+                    <img src="https://i.pinimg.com/170x/b2/75/09/b275094885af294e8b8354a68baec5ad.jpg" alt="">
+                     <div class="overleyhou2">
+                        <h3>Open</h3> 
+                          <div class="excithou2">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                <!-- excithou2 -->
+                </div>
+                <!-- overley2 -->
+                 <h2>Сайт Агентства Недвижимости | Real Estate Website - Екатерина Давиденко</h2>
+                        <p>Photo by 
+Екатерина Давиденко
+ on 
+behance
+ ·
+UI/UX, Web Design</p>
+                   </div>
+                   <!-- hou2 -->
+                   <div class="hou3">
+                    <img src="https://i.pinimg.com/236x/09/59/60/09596059dcf99c2c50e9d5d4f243abfa.jpg" alt="">
+                    <div class="overleyhou3">
+                        <h3>Open</h3> 
+                          <div class="excithou3">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+               <!-- excithou3 -->
+                </div>
+                <h2>Elegant Website Design Ideas for Furniture Stores in the UK - Download Now</h2>
+                <p>Explore stunning website design ideas tailored for furniture stores in the UK. Discover how elegant hero images </p>
+                <!-- overley3 -->
+                   </div>
+                   <!-- hou3 -->
+                   <div class="hou4">
+                     <img src="https://i.pinimg.com/236x/2b/d1/f4/2bd1f4cfc69c7cbdd7e438409eb97a8c.jpg" alt="">
+                    <!-- <img src="https://i.pinimg.com/236x/09/59/60/09596059dcf99c2c50e9d5d4f243abfa.jpg" alt=""> -->
+                     <div class="overleyhou4">
+                        <h3>Open</h3> 
+                          <div class="excithou4">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                <!-- excithou4 -->
+                </div>
+                <!-- overley4 -->
+                 <h2>Plant Shop E-commerce Website Design in Figma | Indoor Plant Online Store UI/UX</h2>
+                 <p>A fresh and minimal e-commerce website design concept for a plant shop, crafted in Figma.  </p>
+                   </div>
+                   <!-- hou4 -->
+                   <div class="hou5">
+                    <img src="https://i.pinimg.com/236x/07/1e/03/071e03ac5024a23d8e32f90dbcfb3111.jpg" alt="">
+                       <div class="overleyhou5">
+                        <h3>Open</h3> 
+                          <div class="excithou5">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excithou5 -->
+                </div>
+                <!-- overley5 -->
+                 <h2>Website Design</h2>
+                   </div>
+                   <!-- hou5 -->
+                 </div>
+                <!-- house -->
+                 <div class="landing">
+                 <div class="land1">
+                  <img src="https://i.pinimg.com/236x/ff/43/a6/ff43a63ede138bb7f827fbdab9c86b46.jpg" alt="">
+                  <div class="overleyland1">
+                        <h3>Open</h3> 
+                          <div class="excitland1">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitland1 -->
+                </div>
+                <!-- overleyland1 -->
+                 <h2>Дизайн сайта для языковой школы | Website design school - Yana Aksenova..</h2>
+                 <p>Web Design, Figma💻</p>
+                 </div>
+                 <!-- land1 -->
+                 <div class="land2">
+                  <img src="https://i.pinimg.com/236x/00/25/df/0025df65d2f1c488381404dd1b70ecc8.jpg" alt="">
+                 <div class="overleyland2">
+                        <h3>Open</h3> 
+                          <div class="excitland2">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitland2 -->
+                </div>
+                <!-- overleland2 --> 
+                 <div class="en">  <img src="https://i.pinimg.com/236x/42/28/cd/4228cd21fded26fd3cb6c63472296145.jpg" alt=""></div>
+                   
+                 </div>
+                 <!-- land2 -->
+                 <div class="land3">
+                  <img src="https://i.pinimg.com/236x/ea/3c/c7/ea3cc763f242ea3cbf6cc816e05b2ce3.jpg" alt="">
+                   <div class="overleyland3">
+                        <h3>Open</h3> 
+                          <div class="excitland3">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitland3-->
+                </div>
+                <!-- overleyland3 -->
+                 <h2>Web design and branding for Home Decor & Home Furniture</h2>
+                 <p>Web design and branding for Home Decor and Home Furniture Category By: @optimizeweb.services Use</p>
+                 </div>
+                 <!-- land3 -->
+                  <div class="land4">
+                    <h3>We think you’ll love these</h3>
+                    <h2>Related Interests</h2>
+                    <div class="ui1">
+                     <div class="l1">
+                      <h2>Travel Ui Design</h2>
+                      <img src="https://i.pinimg.com/236x/b6/79/48/b67948b8c0df158cd433413f1e56dea8.jpg" alt=""> 
+                      <!-- <div class="overleyl1"></div>     -->
+                     </div>
+                     <!-- l1 -->
+                       <div class="l1"><img src="https://i.pinimg.com/236x/13/47/81/13478189456c090a444cec8eda67d73a.jpg" alt="">
+                        <h2>Travel Agency Design</h2>
+                      </div>
+                      <!-- l1 -->
+                       </div>
+                       <!-- ui1 -->
+                       <div class="ui2">   
+                       <div class="l1"><img src="https://i.pinimg.com/236x/5b/6e/76/5b6e76df695731571105d0eb1e79335d.jpg" alt="">
+                        <h2>Travel Blog Design</h2>
+                      </div>
+                      <!-- l1 -->
+                       <div class="l1"><img src="https://i.pinimg.com/236x/b5/d6/83/b5d68350fd859c02ea8b9a86d70625a3.jpg" alt="">
+                        <h2>Travel Landing Page</h2>
+                      </div>
+                      <!-- l1 -->
+                       </div>
+                       <!-- ui2 -->
+                        <div class="ui3">
+                        <div class="l1"><img src="https://i.pinimg.com/236x/6c/5f/95/6c5f95c12ee1bcc24a37024df9aa1e48.jpg" alt="">
+                        <h2>Travel Website </h2>
+                        <h1>Tampletes</h1>
+                        </div>
+                        <!-- l1 -->
+                         <div class="l1"><img src="https://i.pinimg.com/236x/0c/5d/18/0c5d18320f9ef7eb0148f970a489266f.jpg" alt="">
+                         <h2>Resort Wesite</h2>
+                        </div>
+                        <!--  -->
+                         </div>
+                         <!-- ui3 -->
+                  </div>
+                  <!-- land4 -->
+                 </div>
+                 <!-- landing -->
+                <div class="end"> 
+                 <div class="card">
+                  <div class="card1">
+                    <img src="https://i.pinimg.com/236x/b5/ff/9a/b5ff9a4612545ffff30d401ecbc5be66.jpg" alt="">
+                    <div class="overleycard1">
+                        <h3>Open</h3> 
+                          <div class="excitcard1">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitcard1-->
+                </div>
+                <!-- overleycard1 -->
+                     </div>
+                     <!-- card1 -->
+                   <div class="card2">
+                    <img src="https://i.pinimg.com/236x/b4/8e/b5/b48eb5b2d9f20a68168af30e966faed7.jpg" alt="">
+                      <div class="overleycard2">
+                        <h3>Open</h3> 
+                          <div class="excitcard2">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitcard2-->
+                </div>
+                <!-- overleycard2 -->
+                   </div>
+                   <!-- card2 -->
+                    <div class="card3">
+                      <img src="https://i.pinimg.com/236x/50/1b/8d/501b8dbe33a654726d039056e70683f3.jpg" alt="">
+                      <div class="overleycard3">
+                        <h3>Open</h3> 
+                          <div class="excitcard3">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitcard3-->
+                </div>
+                <!-- overleycard3 -->
+                    </div>
+                    <!-- card3 -->
+                     <div class="card4">
+                      <img src="https://i.pinimg.com/236x/46/e9/a7/46e9a717154c4798be9fabc12e009acf.jpg" alt="">
+                      <div class="overleycard4">
+                        <h3>Open</h3> 
+                          <div class="excitcard4">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitcard4-->
+                </div>
+                <!-- overleycard4 -->
+
+                     </div>
+                     <!-- card4 -->
+                      <div class="card5">
+                        <img src="https://i.pinimg.com/236x/47/81/66/478166ec229484211584d6a381a9e6c2.jpg" alt="">
+                         <div class="overleycard5">
+                        <h3>Open</h3> 
+                          <div class="excitcard5">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitcard5-->
+                </div>
+                <!-- overleycard5 -->
+                   
+                      </div>
+                      <!-- card5 -->
+                 </div>
+                 <!-- card -->
+                  <div class="c">
+                   <div class="c1">
+                    <img src="https://i.pinimg.com/170x/a3/01/4f/a3014fa738b03286239f7d8a68ec03f7.jpg" alt="">
+                     <div class="overleyc1">
+                        <h3>Open</h3> 
+                          <div class="excitc1">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitc1-->
+                </div>
+                <!-- overleyc1 -->
+                   </div>
+                   <!-- c1 -->
+                    <div class="c2">
+                      <img src="https://i.pinimg.com/170x/fa/1d/74/fa1d74beea3bddf5ae60c44335442295.jpg" alt="">
+                         <div class="overleyc2">
+                        <h3>Open</h3> 
+                          <div class="excitc2">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitc2-->
+                </div>
+                <!-- overleyc2 -->
+                    </div>
+                    <!-- c2 -->
+                     <div class="c3">
+                      <img src="https://i.pinimg.com/170x/6a/be/05/6abe05dd026715bb3fa4fd338439884b.jpg" alt="">
+                         <div class="overleyc3">
+                        <h3>Open</h3> 
+                          <div class="excitc3">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitc3-->
+                </div>
+                <!-- overleyc3 -->
+                     </div>
+                     <!-- c3 -->
+                      <div class="c4">
+                        <img src="https://i.pinimg.com/170x/a8/1f/63/a81f63bf0c527570912a5f84204d99e7.jpg" alt="">
+                        <div class="overleyc4">
+                        <h3>Open</h3> 
+                          <div class="excitc4">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitc4-->
+                </div>
+                <!-- overleyc4 -->
+                      </div>
+                      <!-- c4 -->
+                       <div class="c5">
+                        <img src="https://i.pinimg.com/170x/f8/bb/fb/f8bbfbe3401df36393539cb956fa63ad.jpg" alt="">
+                         <div class="overleyc5">
+                        <h3>Open</h3> 
+                          <div class="excitc5">
+                <div class="b1"><i class="ri-arrow-right-up-line"></i>Visit site</div>
+                <div class="b2"><i class="ri-download-2-line"></i></div>
+                <div class="b3"><i class="ri-more-fill"></i></div>
+               </div>
+                   <!-- excitc5-->
+                </div>
+                <!-- overleyc5 -->
+                       </div>
+                       <!-- c5 -->
+                 </div>
+                 <!-- c -->
+                </div>
+                <!-- end -------------------------->
+                 </div>
+              <!-- --------------second--------------------- -->
+            
+            </div>
+            <!-- section_part1 -->
+        </section>
+    </main>
+</body>
+</html>

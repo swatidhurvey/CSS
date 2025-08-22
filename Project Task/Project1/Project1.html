@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAilBMVEUAAAD////8/PwEBAT5+fkICAj19fXs7Ozw8PDz8/OsrKzd3d3o6OhJSUnExMQXFxfj4+N/f3+Li4ubm5tfX1/R0dGysrK4uLhRUVHX19eUlJQfHx/Kysp1dXUjIyNubm5CQkI1NTWkpKSDg4M7OzstLS1lZWWYmJhXV1cSEhJqampGRkY2NjZgYGBN6NekAAANsklEQVR4nO1diZqjKBAGRE3MaS5j7vvonnn/11sOzdEBBaUDmW//mU3vTPcgv1UURVEUADoLHDQRqt8MqN+EKSDCh/6iaHWj8369x/SvazbrEEOMKEvyP+ns9GcOCA4tA806xBDCAEE83q8oOeB5HjguYH09dYgh4RJGy5ye53tg3q2to04xhDj6vjJ+9DcRIeh16w9DBxii7KO564EfoAxrwz5DCgSbyYgJ7wnzf4FhZknC5RwwxXwCsTT/hJYSAUbEfvrMfD6R/DdmC0IwXF+B7/s/RyEAnYaBB9hnCNMLU1AvM6IPuGADD7DGkMgOs1EWvcoOZEyX8JPHIWL/ITx8NaE3zEw8yCJD6mijARmCUiF2+Q/Wg1UZQni6aaSIYQA/WkuJCIMZoeG/TIM5DkYeZNPSwCETlogh+6uYvYa6sMEQZZ9DmYXJZo+xkadZYMhdbQwXvtyKUrlu2kYeZ0VL2UTen746og8MPRCbmO+tjUPiqo0KbAzlbmTpBG0xJIp6zla5UoYXM0pqZRzSgRjyUEUBw4Ghx1mxpcQlvci4ZQwBaBp6miVLs7sWM6Ret4lwMLQ1DtvTMoLXMTRjSi0xjMsIgj02EtKHlhj2e/K5nmM7hsHnMqTumtyKZiKEwWeOQ97n9FjszXhgbiDWncOGlu68Im+GLIj9xODTLDBsXMBVPg59QnEdGHycBYZdIAj+PlAEnb7Jx1lguC72SLPwjDG8nSFCoCC6RhEbNDPwzQzpJi9M5NyYZGNDs0SOd8sQwaWcHw1djPq3zXwzeLuWht9Shiyq0Sb+6OdqKXVTFiu5jSFm1MRu0zPeLEMk2abIKHbGyLCOvt9rQwM5Q7AKsWEzA98/Dhs/Fvfew9clNuVtP+LdDMOOQHY8cDps/gbBtzPsH4VWlCwnJtD4EGR4N8OWaC+NSDBu/wY7irczFBL8jjBia/p/YByKGIJhH2KE+Zap8Se+m+H4Zj5zK3oYhL/6RCsyZB4oX0B9z8x7Mc9494zfuj6IDxy7/V+xn4949+qpvc3Ibb+XE6qe2MBWfSHeyxDBYDJbxvtzNBn32V+gf0uGHBhn8Xp0+/hNVGTI8n1KOoeevsh/Bv/4KdQM232Odth43b3QnFEqy/DpMY1+miSTaEcQJYtxg32TrWRLtldQxpHMhuwnG60kmq2nm/l83uv1Vn86p3g26Y7D+yORbn5GVRni+2O6UTzdbK+5O3ZdHafr8wLzn1KSMyIODfnSSPaXjcCr6x2n8TAT5k3oyqiupeS1k1e+k+6TbSdpkx4xQGVjjZgf0tJ4ckuCFkfijvsF2/dGmrtulRmSX+nuxN+4l6VNelm4LNu/Xn1FKSy1JfQNjHejnozc3TsA09lYP4hT3ZYu1n+AOHjNusS/cfhalPYIJ6PjD+E9NZo1xT6OJ+0tDT2GiA10mtabSENmP7Ea9FkG3g+mmcFopGvVhjJsqKOQTzQKVkeHITN8ZDZDjeTCJKXYp/kyYiMS5+lerB0617d3o595wcVg8rx0A74OUVqL6DEkIPJYnK6gcO/huVN0rF4GC94Evs+kOIlpSEOcXiplSD976/TeIYMMMX/7/fjhWQp9yj+mw1Zw6xJudgeHnF4FjmDYUF1Oamvp5JsnDhbl+7z2iTOJB5O03Qj742j/xb7hq7+prC1uWn0fnFJFipq2FM+AbqfyrjH4202nszl6QEPNn9vhuxs+XXlBJT1VYph5SgiON/p9+j3sw3xhUkRUjSE3Dngxt03qGacGX14WSlJRS1lD0VHHsL8D67B8VlTUUvq515q5fh/MQLdKh6KqpUHBuThf8v1gE22neXOPajKE58zftM3rDv6+l2WBnjKGKDvdUp5rZwtkLNaSIfdF0c6xMXgHTSauaUvpP09WzjIkgzGBRTlUCuMQw/HcrRH4CNKv7aKGDNkwbB7Bz/Or7oDmwY2K0voVZIhiakV9RxlS3doXZb2XyRAFRceTrMLLYiWdVmH0rdyWjrflD7MDnmK079edD0e2icjAbUMUQFxHhgjugKsjkM4Umy4s29spk2FroxdkeC+mY7aqq7M+RAPguypDDxxDlPlc1RmObdMQIsuE/9usG8VAGJYcwLIEj2VRjcrXhqUMaV6BiyrqUYq9hlomagFDouInjcj2W0GsaKq4R1M4DhcrNxnSIlmJahZcoZbyXFD3KBKGw6yP5ZuJUobEIU1tMxEgW8St1Xfz5TJEcGaZjQTc2VaGXIYIHWxzEYHK8Jpo7AQXjMNupY2F34bHIjMamVQFWho7aGMApXhtQI2sGjnDdgdcnaQIduy8e32GiYtrCrqo/6t3Ul9uaQYuKilZ51wjLYJyhuHFRYaeD6aa9TKkDIVJ9dZBlHSiR1DOcPJSH84FeGDVMJW5t3aPHsNSN+1LyJC6sw4KkKKnnfguYkhfUkCbc5DjRbtYpIzhwjYVCYaC/uozpBRnLgoQgJV+zVYZwy83GU5DqEtRoqVo5NquPcdaP7lfMlv0N7a5iOCBBBqRIUHq5IaTByockpIw7DqW35VDn6CM4cQ2FTHmT8cgajHc2eYixqjCISIJw7NtLiJ4YF/hNLRwtkBYWp7DJvRXTlKGMHCSIQBV6keJtbSpewjiTahSfUjMsPHXNhcxqtTdFTBEr9UrnABxIVNjDMPSyo0WYI4hdJQhMKal/zO0iMI0y89nSMahqRmfBbydhH6U5tMYVrnwQuy1hQ76NKwQPdQvYSPx2hz1S6/QVJwGu3e8ggfFNNnJGRZWVbMHD6Rm1ocQOppo4oHIGEP3std5zjO9H8lMNNHRSFSVWz0kDJPSuvd2sNL32yQM5TU4LYN6NUa0tOVkxhfBRbv0mYRhQ1TA0QXoX/oo33tyFGcj8VKI4drJPW7g+9pujShOQ1+Sm04NPd2imRIlZZg4mU7D7hDSzFWQCT20zUUMehOyqbw221zEoOVQNC+CEu/MkI+ekwcR2FkSPSFKZfjlZA40B8sRrs3Q0T1SZv5K6ygoMUyBi7aUo5do1N2TMhSWpbYP/tK3GhsYUoaubrBReGCqXp6+OM/bOTXlHWLnnszk6jvH8I5syqhT62vs5kBkIEJc0T39evXamlN3RcjOkLbU4m4Fi5G9bR5ysMDbqguDOucP+c1T7oLo10FpvV/AENsmUQRWsW8+rmVpIHRxm/QRdDlco+YecvYM6R1EkHtcVhhDLkPsaEGFO5hHsm5XrWZG3oyTeUNPYCZ1V2xP5QyJ5+e4mvJSpgDsC3OjC2squLp7cUN2mmBTtOovZNgouv7cKXS6gWw4FgdYB65Vg5Ti+rWQRBmLKg4gZk0/gR89PdsbiCvvlQTJty4uEgWgFicW29RChsjNjHYBqAsn8VKLK/C4WoLnBdQPl9xAW6KlOAYFtxM7BB/sK9lSCCP/IyYM0kfZUkqlXtsnMAQrmXNauuF4/oyBSNMWq2npp9iabSoLS5VvGm9sd14Jf5sVtZReb2u782WgKtbrSheJ5dU9Wb6w24rqsRPQEooK9byd3WfLQP3KoTx2Wq6lqN1xuFAy4PpVcKmUAkPobrnyHDJ/RoEhN8HAdYoprdNZcRwy7LI7id2EDwa170bob9yt5w1q1mTnoEE3VwmSjsUG7rcIp87636RbLRM3eLhsTpe1KiXnwCtnGfZSGNRniPLNRKdWw9wP2ZX0XTUhtbEGrnk2PJC7Ybfu1mVIy204WO2EBat3Ru4KQrwirUsCBPxOUNCBZdfLKd5oRc/oO3cEgwdJzTBk0eSEtWqb1h20K/HP65IrMuTAsWMhfh90JFHgigxhenBNhipnuzUYurZQ9MFUpdaujgwRdOsA9KFl/pbOlkvHoXo7FOBaWV+vwE6VT/4KsMo967rHiHZVr0g1CeY+zk3c/vAMflHg1IGbdWiKia9aM0pThgimR+si5DeRqZ5I0JUhuynQNkN6yUxYP89bRJGSxAPrs6LHE4R/hSH9jR1wwUvurazKMEdrY2+xz587MHI3QgGSua0KtezOc3Y+71cZomAGbC0z2HtVH4RVGUJ4AnYUlT5zTu9gKbpbtT5D8oD+1FodZW9IBWjg7FoJFkdbc0aMMpv+ywxh6jH3TWM4ek9fdOFlHyfdjlZmCCdzoOGFv/yYl3+qviOe6Drq65bCqsoQQ3qTtU5KmOc9fnlkqtQE/3edVO3CPAMMKSZmhqJqG7SaGbsR8D0MmY867OlyXF2W+9l5ODzP4q/vXtZxZRleUlazQ92O1mHIWWolohwGi7QfBrx/CDfb/XRy0mlg1GcrJoXIhSmG5GmLednMn42fZSLRrf5gugKZHXkZk15uQQmucbVO1mJId9069z68kMvs32odtRGULlgbi/jA6rKAn14E/4PP5qXjTt2NeUJNGSLYWsvtIetvb5kGUEqPTd24dV5ljATteJT8MUUqYScB6sqQZoVtgDB2Qzs7nyYNMrU0+Q9L2qBhXTw5XcFLxnWuBZudfr3EHPVkyHQPpbJyPfM9O8rCgn7iDpLv5CfrgyTevsqQ/vm4ZAebNG6Te0Rdhqx/OBUFw/8MW5i5yJl6SbuXn5IM2rtvQTuzNNtgQkjPinLU09KHHg5Gh/s5sNX3aaiwLSRCFI++j9l+8/Ew3VcpHfwEEwwpqLlIdrM4jveDWdTVL/53awei9rgbMSxa0vNa6jDD8NYLTFCskpoNa5e6fMF/H3/BY40lnlkAAAAASUVORK5CYII=" type="image/x-icon">
+    
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="Project1.css">
+
+</head>
+<body>
+    <main>
+        <nav>
+            <div id="nav1">
+                <ul>
+                <li><i class="ri-apple-fill"></i></li>
+                <li>Store</li>
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>AirPods</li>
+                <li>TV & Home</li>
+                <li>Entertainment</li>
+                <li>Accessories</li>
+                <li>Support</li>
+                <li><i class="ri-search-line"></i></li>
+                <li><i class="ri-shopping-bag-line"></i></li></ul>
+
+            <div class="container">
+                <div class="item">
+                   <h5>Shope</h5>
+                   <h1>Shope the Latest</h1>
+                   <h1>Mac</h1>
+                   <h1>iPad</h1>
+                   <h1>iPhone</h1>
+                   <h1>Apple Watch</h1>
+                   <h1>Accessories</h1> 
+                </div>
+                 <div class="item">
+                    <h2>Quick Links</h2>
+                    <h4>Find a store</h4>
+                    <h4>Order status</h4>
+                    <h4>Ways to Buy</h4>
+                    <h4>Personal setup</h4>
+                    <h4>collage student offer</h4>
+                 </div>
+                  <div class="item">
+                    <h2>Shope special store</h2>
+                    <h5>Education</h5>
+                    <h5>Business</h5>
+                  </div>
+            </div>
+            </div>
+            <div id="nav2">
+                <p>Get up to 12 months of No Cost EMI◊ plus up to ₹8000.00 instant cashback‡ on selected products with eligible cards.</p>
+                <h2>Shop<i class="ri-arrow-right-s-line"></i></h2>
+            </div>
+        </nav>
+        <header>
+    
+            <div id="box1">
+                <h1>Buy Mac</h1>
+                    <h1> or iPad</h1><h1> for collage</h1>
+               <!-- <div class="tv"><img src="./2.jpeg" alt=""></div> 
+                     -->
+               <div class="tv"><img src="https://www.apple.com/v/home/cf/images/heroes/bts-2025/hero_sticker_ipadair__bk6ffplndvte_medium.png" alt=""></div>
+               <div class="tv2"><img src="https://www.apple.com/v/home/cf/images/heroes/bts-2025/hero_sticker_mba__b0ht7774wpaq_medium.png" alt=""></div>
+            </div>
+            <div id="box2">
+                <h2>With Education savings*</h2>
+            </div>
+            <div id="box3">
+                <h1>Choose Airpods or an eligible accessory<sup>1</sup></h1>
+                <div class="emoji"><img src="https://www.apple.com/v/home/cf/images/heroes/bts-2025/hero_sticker_genmoji__dixanrcsc2gm_medium.png" alt=""></div>
+            </div>
+              <button class="btn">Shop</button>
+        </header>
+        <!--  -->
+        <section>
+           <div id="section_part1">
+            <div id="part1">
+                <h1>MacBook Air</h1>
+                <h2>Sky blue color.</h2>
+                <h3>Sky high performance with M4</h3>
+            </div>
+            <div class="btn1">
+                <button class="learn">Learn more</button>
+                <button class="buy">Buy</button>
+            </div>
+            <h5>Built for Apple Intelligence.</h5>
+           </div>
+            <!--  -->
+           <div id="section_part2">
+            <div id="part2">
+                <h1>iPhone</h1>
+                <h2>Meet the iPhone 16 family</h2>
+            <div class="b">
+                <button class="l">Learn more</button>
+                <button class="sh">Shope iPhone</button>
+            </div>
+            <h3>Built for Apple Intelligence.</h3>
+           </div>
+           </div>
+           <!--  -->
+           <div id="section_part3">
+    
+                <div class="item1">
+                    <img src="https://www.apple.com/v/home/cf/images/promos/wwdc25-os/promo_wwdc25_os__fag35zt85taq_medium.jpg" alt="">
+                    <div class="In">
+                    <h1>OS Preview</h1>
+                    <h2>Introducing exciting new features</h2>
+                    <h3>across platforms.</h3>
+                    <button class="ex">Explore</button>
+                    </div>
+                </div>
+                <div class="item2">
+                    <img src="https://www.apple.com/in/home/promos/mac-for-students-2/images/promo_college_students__bxqdcoxgjzw2_medium.jpg" alt="">
+                    <button class="more">Learn more</button>
+                </div>
+    
+           </div>
+           <!--  -->
+           <div id="section_part4">
+            <div class="item3">
+                <img src="https://www.apple.com/v/home/cf/images/logos/ipad-air/promo_logo_ipadair__frwnnsqveeye_medium.png" alt="">
+                <h2>Now supercharged by the M3 chip</h2>
+                <div class="l2">
+                    <button class="le">Learn more</button>
+                  <button class="bu">Buy</button>
+                </div>
+                <h3>Built for Apple Intelligence.</h3>
+            </div>
+            <!--  -->
+             <div class="item4">
+                <h1>MacBook Pro</h1>
+                <h2>A work of smart.</h2>
+                <div class="l2">
+                    <button class="le">Learn more</button>
+                  <button class="bu">Buy</button>
+                </div>
+                <h3>Built for Apple Intelligence.</h3>
+             </div>
+           </div>
+           <!--  -->
+           <div id="section_part5">
+            <div class="con1">
+              <h1>AirPods 4</h1>
+              <h2>Iconic. Now supersonic.</h2>
+              <h3>Available with Active Noise Cancelltion.<sup>2</sup></h3>
+              <div class="l3">
+                    <button class="le">Learn more</button>
+                  <button class="bu">Buy</button>
+                </div>
+            </div>
+             
+            <!--  -->
+            <div class="con2">
+                <h1><img src="https://www.apple.com/v/home/cf/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_medium.png" alt=""></h1>
+                <!-- <h1><i class="ri-apple-fill"></i>Trade In</h1> -->
+                <h2>Upgrade and save. It's that easy.</h2>
+                <button>Get your esimate</button>
+            </div>
+           </div>
+           <!--  -->
+           <div id="section_part6">
+            <div class="Animation">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/4UEcdeb6Xoc40fhFSAr3Og/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/YOgobsksqgV_waAIE0-63A/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/5geoozRQUAjDnWF2KLHyJg/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/GXfWRYE8CcrFMq7ZMgktwQ/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/EUeDAPovZrBtOcrP2Da5Lw/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/3pfG0GJkoI0OFlPiIDdvUQ/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/LEDx4gCVQd_lTJt81zQq8w/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/2eBqvT3JXPbdzHWj6HM5_w/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/C34jADlGtR5wObjPAMbW4w/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Hfukww-HLCzjsrOLVJUcIw/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/nHV1YavWeg_rV-NyMqFbhQ/689x387.jpg" alt="">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/5geoozRQUAjDnWF2KLHyJg/689x387.jpg" alt="">
+            </div>
+            <div id="stream">
+                <p>Thriller. The world's most dangerous secret lies between them.</p>
+                <button>Stream now</button>
+            </div>
+           </div>
+        </section>
+        <footer>
+            <div id="footer_part1">
+                <p>◊No Cost EMI is available with the purchase of an eligible product made using qualifying cards on 3-, 6-, 9- or 12-month tenures from most leading card issuers. Eligible AirPods, HomePod and Beats products are available with No Cost EMI on 3- and 6-month tenures only. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions. Minimum order spend applies as per your card issuer’s threshold. No Cost EMI is not available to business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuer. Offer may be revised or withdrawn at any time without any prior notice. Terms apply.</p>
+                <p>Representative example:</p>
+                <br>
+                    <p>A purchase of ₹79900.00 repaid over 12 months with an interest rate of 15.99% p.a. and No Cost EMI savings of ₹6514.00 requires monthly payments of ₹6658.00. Total amount payable: ₹79900.00.</p>
+
+                   <br>
+                
+                        <p>‡Instant cashback is available with the purchase of an eligible product with qualifying American Express, Axis Bank and ICICI Bank cards only. Minimum transaction value of ₹10001.00 applies. Click here to see instant cashback amounts and eligible devices. Instant cashback is available for up to two orders per rolling 90-day period with an eligible card. Card eligibility is subject to terms and conditions between you and your card issuer. Total transaction value is calculated after any trade-in credit or eligible discount is applied. Any subsequent order adjustment(s) or cancellation(s) may result in instant cashback being recalculated, and any refund may be adjusted to account for instant cashback clawback; this may result in no refund being made to you. Offer may be revised or withdrawn at any time without any prior notice. Additional terms apply. Instant cashback is not available to Business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be combined for instant cashback.</p>
+
+                    <br>
+            
+                        <p>*Apple Education Pricing is available to current and newly accepted college students and their parents, as well as teachers and staff at all levels. For more information, visit apple.com/in-edu/store.</p>
+
+                    <br>
+            
+                        <p>1. Qualified Purchasers can receive Promotion Savings when they purchase an eligible Mac or iPad with their choice of a Promotion Product at a Qualifying Location. Customers will be charged for all items in their cart, including the Promotion Product. Only one Promotion Product can be obtained per eligible Mac or iPad per Qualified Purchaser. The offer is subject to availability, while supplies last. View full terms and conditions of offer here.
+2. Available in two models: AirPods 4 and AirPods 4 with Active Noise Cancellation.</p>
+                   <br>
+                        <p>Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language set to the same supported language, as part of an iOS 18, iPadOS 18 and macOS Sequoia software update. Supported languages include English, French, German, Italian, Portuguese (Brazil), Spanish, Japanese, Korean and Chinese (Simplified). More languages are coming over the course of the year, including Vietnamese. Some features may not be available in all regions or languages.
+A subscription is required for Apple TV+.</p>
+                    <br>
+                        <p>Features are subject to change. Some features, applications and services may not be available in all regions or all languages.</p>
+             <hr>+
+            </div>
+            <!--  -->
+            <div id="footer_part2">
+                 <div class="box">
+                    <div class="box1">
+                        <h1> Shop and Learn</h1>
+                        <h2>Store</h2>
+                                <h2>Store</h2>
+                                <h2>Mac</h2>
+                                <h2>IPad</h2>
+                                <h2>IPhone</h2>
+                                <h2>Watch</h2>
+                                <h2>AirPods</h2> 
+                                <h2>TV & Home</h2>
+                                <h2>AirTag</h2>
+                                <h2>Accessories</h2>
+                                <h2>Gift Cards</h2>
+                                <h1>Apple Wallet</h1>
+                                <h2>Wallet</h2>  
+                                  
+                    </div>
+                    <div class="box2">
+                        <h1>Account</h1>
+                        <h2>Manage Your Apple Account</h2>
+                        <h2>Apple Store Account</h2>
+                          <h1>Entertainment</h1>
+                          <h2>Apple One</h2>
+                          <h2>Apple Music</h2>
+                          <h2>Apple Arcade</h2>
+                          <h2>Apple Prodcasts</h2>
+                          <h2>Apple Book</h2>
+                          <h2>App Store</h2>
+                    </div>
+
+
+                    <div class="box3">
+                             <h1>Apple Store</h1>
+                             <h2>Find a Store</h2>
+                             <h2>Genius Bar</h2>
+                             <h2>Today at Apple</h2>
+                             <h2>Group Reservations</h2>
+                             <h2>Apple Camp</h2>
+                             <h2>Apple Trade In</h2>
+                             <h2>Ways to Buy</h2>
+                             <h2>Recycling Programme</h2>
+                             <h2>Order Status</h2>
+                             <h2>Shopping Help</h2>
+                    </div>
+
+
+                    <div class="box4">
+                        <h1>For Business</h1>
+                        <h2>Apple and Business</h2>
+                        <h2>Shope for Business</h2>
+                        <h1>For Education</h1>
+                        <h2>Apple for Education</h2>
+                        <h2>Shope for Education</h2>
+                        <h2>Shope for University</h2>
+                        <h1>For Healthcare</h1>
+                        <h2>Apple for Healthcare</h2>
+                        <h2>Mao in Healthcare</h2>
+                        <h2>Health on Apple Watch</h2>
+                    </div>
+
+
+                    <div class="box5">
+                        <h1>Apple Value</h1>
+                        <h2>Accessibility</h2>
+                        <h2>Education</h2>
+                        <h2>Environment</h2>
+                        <h2>privacy</h2>
+                        <h2>Supply Chain Innovation</h2>
+                        <h1>About Apple</h1>
+                        <h2>newsroom</h2>
+                        <h2>apple Leadership</h2>
+                        <h2>Career opportunities</h2>
+                        <h2>investers</h2>
+                        <h2>Ethics & Compli</h2>
+                        <h2>Events</h2>
+                        <h2>Contact Apple</h2>
+                    </div>
+
+
+                 </div>
+
+                 <div class="mo">
+                    <h2>More ways to shope:</h2>
+                    <a href="">Find an Apple store</a>
+                    <h2>or</h2>
+                    <a href="">other retailer</a>
+                    <h2>near you.Or call</h2>
+                    <a href="">0008000401966</a>
+                 </div>
+                 <hr>
+                <div class="copy">
+                    <h4>Copyright</h4>
+                    <p>2025 Apple Inc. All right reserved. </p> 
+                    <h3>privacy Policy| Terms of Use| Sales policy| Legal | Site Map</h3>
+                    <h4>India</h4>
+                </div> 
+                 <div class="c">C</div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
