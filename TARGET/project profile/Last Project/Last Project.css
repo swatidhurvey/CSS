@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+main{
+    width:100%;
+    height:100vh;
+}
+nav{
+    width:100%;
+    height:16vh;
+    display: flex;
+}
+nav  #nav1{
+    width:50%;
+    height:100%;
+    display: flex;
+}
+nav  #nav1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+nav  #nav1 h1 img{
+   width:120px;
+   height:60px;
+   padding-left: 20px;
+}
+nav  #nav1   ul  li  {
+    display: flex;
+   display: inline-block;
+   list-style: none;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+nav  #nav1   ul  li a{
+text-decoration: none;
+color:black;
+padding:0 25px;
+font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+color: rgb(6, 3, 24);
+cursor: pointer;
+transition: all ease 1s;
+}
+nav  #nav1   ul  li  :hover{
+    background-color: grey;
+}
+/**/
+nav .list{
+    width:180px;
+    height:350px;
+    position: absolute;
+    top:10px;
+    margin-top: 6.8%;
+    margin-left: 5%;
+    padding-left: 3%;
+   display:none;
+} 
+nav .list ul li{
+    list-style: none;
+    padding-left: 20%;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+color: rgb(6, 3, 24);
+padding: 7px;
+cursor: pointer;
+
+}
+ nav  .list  :hover{
+    background-color: white;
+    box-shadow: 0 5px 10px black;
+   
+ }   
+ nav  #nav1   ul  li  :hover  +  nav  .list  :hover{
+      display: inline-block;
+ }
+ /**/
+nav .list2{
+    width:200px;
+    height:350px;
+    position: absolute;
+    top:10px;
+    margin-top: 6.8%;
+    margin-left: 15%;
+    padding-left: 3%;
+    display:none;
+} 
+nav .list2 ul li{
+    list-style: none;
+    padding-left: 20%;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+color: rgb(6, 3, 24);
+padding: 7px;
+cursor: pointer;
+
+}
+ nav  .list2  :hover{
+    background-color: white;
+    box-shadow: 0 5px 10px black;
+   
+ }   
+ nav  #nav1   ul  li  :hover  +  nav  .list2  :hover{
+      display: inline-block;
+ }
+ /**/
+nav #nav2{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+    gap:20px;
+}
+nav #nav2 .sing{
+    width:100px;
+    height:50px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(6, 3, 24);
+border:none;
+background-color: transparent;
+border-radius: 30px;
+cursor: pointer;
+transition: all ease 1s;
+}
+nav #nav2 .sing:hover{
+    background-color: red;
+    box-shadow: 10px 10px 10px black;
+}
+nav #nav2 .in{
+    width:100px;
+    height:50px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 14px;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 30px;
+background-color: black;
+cursor: pointer;
+transition: all ease 1s;
+}
+header{
+    width:100%;
+    height:84vh;
+}
+header #div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+padding-top: 3%;
+gap:20px;
+}
+header #div1 h1{
+   font-family: "Source Serif 4", Georgia, serif;
+font-size: 62px;
+font-weight: 400;
+line-height: 74.4px;
+color: rgb(13, 12, 34); 
+}
+header #div1 p{
+   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+color: rgb(13, 12, 34); 
+}
+header #div1 .search{
+   width: 500px;
+   height:50px;
+   background-color:white;
+   border-radius: 30px;
+   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(6, 3, 24);
+cursor: pointer;
+border:  2px solid plum;
+}
+header #div1  .search :hover{
+background-color:#CFD3D4 ;
+}
+header #div1 .search input{
+     width:70%;
+     height:70%;
+    border: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+header #div1 .search select{
+    width: 15%;
+    height:70%;
+    background-color: transparent;
+    border: none;
+}
+header #div1  .search .bar  {
+    width:3%;
+    height:6%;
+    background-color: #EC5E95;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   top:2px;
+   margin-top: 31.6%;
+   margin-left: 32%;
+   border-radius: 50%;
+}
+header .trend{
+    width:80%;
+    height:10%;
+    display: flex;
+   margin-left: 10%;
+   margin-top: 3%;
+   gap:10px;
+   justify-content: center;
+   align-items: center;
+}
+header .trend .text1{
+    width:14%;
+    height:70%;
+   margin-top: 1px;
+   padding-left: 10px;
+   padding-top: 10px;
+   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+color: black;
+border-radius: 30px;
+cursor: pointer;
+transition: all ease 1s;
+}
+header .trend .text1:hover{
+    background-color: gray;
+    box-shadow: 0 3px 5px black;
+}
+/**/
+section{
+    width:100%;
+    height:100vh;
+}
+section .popular{
+    width:100%;
+    height:20vh;
+    display: flex;
+   justify-content: center; 
+}
+section .popular .po{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+   border: none;
+   border:  2px solid gray;
+   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(13, 12, 34);
+}
+section .popular ul li{
+    list-style: none;
+    display: flex;
+    display: inline-block;
+   padding:0 30px ;
+   margin-top: 20px;
+  font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+color: rgb(13, 12, 34);
+}
+section .popular .po1{
+    height:50px;
+    width:100px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid gray;
+   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(13, 12, 34);  
+}
+section .grid{
+   width:100%;
+   height:100vh;
+}
+section .grid .box1{
+    width:20%;
+    height:40%;
+    margin-left:20px;
+
+}
+section .grid .box1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+     border-radius: 20px;
+}
+section .grid .item{
+    display: flex;
+    font-size: 20px;
+    gap:5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+section .grid .item img{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+section .grid .item h5{
+   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+color: rgb(13, 12, 34); 
+}
+section .grid .item  .pro{
+   width:30px;
+   height:20px;
+border: none;
+background-color: gray;
+font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 10px;
+font-weight: 700;
+line-height: 10px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+transition: all ease 1s;
+border-radius: 5px;
+}
+section .grid .item  .pro :hover{
+    background-color: black;
+}
+section .grid .item h4{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+color: rgb(61, 61, 78);
+margin-left: 20px;
+}
+section .grid .heart{
+    display: flex;
+    font-size: 10px;
+    gap:10px;
+   padding-left: 50px;
+   position: absolute;
+   top:1px;
+   margin-top: 71%;
+   cursor: pointer;
+   transition: all ease 1s;
+}
+section .grid .heart :hover{
+    box-shadow:2px 0 10px white;
+    color:white;
+    background-color: transparent;
+}
+

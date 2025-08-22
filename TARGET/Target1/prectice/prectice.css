@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    background-color:#FFFFFF ;
+}
+header{
+    width:40vh;
+    height:100vh;
+    border: 2px solid hsl(192, 9%, 90%);
+}
+header #dev {
+ display: flex;
+ margin-left: 55px;
+ margin-top: 20px;
+ font-family: cursive;
+}
+header #dev img{
+    width:30px;
+    height:30px;
+    margin-top:5px;
+    margin-right: 5px;
+}
+header #img1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 60px; 
+    padding-top: 10px;
+    cursor: pointer;
+}
+header #img1 img{
+    width:30px;
+    height:30px;   
+}
+header #img1 h2{
+    font-size: 18px;
+    font-family: cursive;
+   margin-left: 15px;
+}
+header #img1 :hover{
+    background-color: red;
+}
+section{
+    width:80%;
+    height:100vh;
+    margin-left: 13px;
+}
+section #section1{
+    width:100%;
+    height:45vh;
+}
+#section1 .box1{
+    width:100%;
+    height:49vh;
+    display: flex;
+    gap:10px;
+}
+#section1 .box1 .box{
+    width:33%;
+    height:49vh;
+    border: 2px solid hsl(192, 9%, 90%);
+}
+#section1 .box1 .box img{
+    width:80%;
+   margin-left: 10%;
+   margin-top: 5px;
+   object-fit: cover;
+   object-position: center;
+}
+.box1 .box h1{
+    font-size: 20px;
+    padding:5px;
+    margin-bottom: 5px;
+}
+.box1 .box h2{    
+    font-size: 20px;
+   margin-top: 9%;
+}
+.box1 .box p{
+    width:100%;
+    height:20%;
+    font-style: normal;
+}
+.box1 .box  #p p{
+    width:100%;
+    height:20%;
+    margin-top: 4%;
+}
+section b{
+    position: absolute;
+   margin-top: 3%;
+   margin-left: 2%;
+   font-size: 20px;
+}
+/**/
+section #section2{
+    width:100%;
+    height:45vh;
+    margin-top: 6%;
+}
+#section2 .box2{
+    width:100%;
+    height:45vh;
+    display: flex;
+    gap:10px;
+}
+#section2 .box2 .box{
+    width:33%;
+    height:45vh;
+    border: 2px solid hsl(192, 9%, 90%);
+}
+#section2 .box2 .box img{
+    width:80%;
+   margin-left: 10%;
+   margin-top: 2px;
+   object-fit: cover;
+   object-position: center;
+}
+.box2 .box h1{
+   position: absolute;
+   bottom: 20px;
+   font-size: 20px;
+   margin-left: 50px;
+}
+.box2 .box h2{
+    margin-top: 80px;
+    font-size: 22px;
+    margin-left: 50px;
+}
+.box2 .box h3{
+    margin-top: 80px;
+    font-size: 23px;
+    margin-left: 50px;
+}

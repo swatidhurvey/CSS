@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+main{
+    width:100%;
+    height:100vh;
+}
+nav{
+    width:100%;
+    height:20%;
+    display: flex;
+}
+nav #nav1{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+nav #nav1 h2{
+font-size: 25px;
+font-weight: 900;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-left: 20%;
+}
+nav #nav2{
+    width:30%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+nav #nav2 ul li{
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+   padding: 0 20px;
+   font-family: monospace;
+   font-size: 18px;
+   font-weight: 300;
+   cursor: pointer;
+   transition: all ease 1s;
+}
+nav #nav2 ul li:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 10px 10px 10px black;
+}
+nav #nav3{
+    width:20%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav #nav3 button{
+   width:50%;
+   height:40%;
+   font-size: 20px;
+   margin-right: 20%;
+   font-family: cursive;
+   border-radius: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   transition: all ease 1s;
+   box-shadow: 10px 10px 10px white;
+}
+nav #nav3 button:hover{
+    background-color: red;
+    box-shadow: 10px 10px 10px black;
+    color:white;
+}
+/**/
+section{
+    width:100%;
+    height:64%;
+    display: flex;
+}
+section #section1{
+    width:50%;
+    height:100%;
+}
+section #section1 #con1{
+     width:100%;
+     height:60%;
+     padding-left: 20%;    
+}
+section #section1 #con1 h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+section #section1 #con1 h2:hover{
+    background-color: yellow;
+    color: white;
+}
+section #section1 #con1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 45px;
+     font-weight: 900;
+     cursor: pointer;
+}
+section #section1 #con1 h1:hover{
+    background-color:pink;
+    color: white;
+}
+section #section1 #con1 p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+section #section1 #con1 p:hover{
+    background-color:black;
+    color: white;
+}
+section #section1 #con2{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 20%;
+    gap:40px;
+}
+section #section1 #con2 button{
+    width:130px;
+    height:50px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: all ease 1s;
+    box-shadow: 10px 10px 10px white;
+}
+section #section1 #con2 button:hover{
+    background-color: red;
+    color:white;
+    box-shadow: 10px 10px 10px black;
+}
+section #section1 #con2 img{
+    width:8%;
+    height:10%;
+    object-fit: cover;
+}
+section #section1 #con2 h3{
+    font-size: 20px;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+section #section2{
+    width:50%;
+    height:100%;
+}
+section #section2 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+    width:70%;
+    height:13%;
+    position: absolute;
+    top:20px;
+    margin-top: 36%;
+    margin-left: 10%;
+    background-color: white;
+}
+footer .box{
+   width:100%;
+    height:100%;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease 1s;
+   background-color: white;
+}
+footer .box:hover{
+    background-image:linear-gradient(red,yellow,green,rgb(30, 45, 116));
+}
+footer .box .box1{
+   width:30%;
+    height:100%; 
+     border: 2px solid #c4ccd4;
+    padding-left: 40px;
+    padding-top: 15px;
+    transition: all ease 1s;
+}
+footer .box .box1:hover{
+    background-color: yellow;
+    box-shadow:10px 10px 10px black;
+}
+footer .box .box1 h2{
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 200;
+}
+footer .box .box1  h4 {
+    position: absolute;
+    top:10px;
+    font-size: 25px;
+    padding-left: 19%;
+    padding-top: 10px;
+}
+footer .box .box1 h3{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+footer .box .box2{
+   width:20%;
+    height:100%;
+    border: 2px solid #d9e3ee;
+}
+footer .box .box2:hover{
+    background-color: purple;
+    box-shadow:10px 10px 10px black;
+}
+footer .box .box2 img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 50px;
+    margin-top: 10px;
+}
