@@ -1,0 +1,59 @@
+1. Introduction to CSS
+What is CSS?
+Importance of CSS
+CSS Syntax and Selectors
+Types of CSS (Inline, Internal, External)
+CSS Comments
+
+2. CSS Selectors & Properties
+Basic Selectors (Tag, Class, ID)
+Attribute Selectors
+Grouping Selectors
+Universal Selector
+Pseudo-classes and Pseudo-elements
+Combining Selectors
+
+3. CSS Box Model
+Margin, Border, Padding, Content
+Width and Height Properties
+Box Sizing
+
+4. CSS Layout Techniques
+Display Property (Block, Inline, Inline-block, None)
+Positioning (Static, Relative, Absolute, Fixed, Sticky)
+Flexbox Layout 
+Grid Layout - Hold
+
+
+5. Typography & Text Styling
+Font Properties (Size, Family, Weight, Style)
+Text Properties (Color, Alignment, Decoration, Transform, Spacing)
+
+
+6. CSS Colors & Backgrounds
+Color Models (RGB, HEX, HSL)
+Background Properties (Color, Image, Position, Repeat, Size)
+Gradients (Linear, Radial)
+
+7. CSS Borders & Shadows
+Border Properties
+Box Shadows
+Text Shadows
+
+
+8. CSS Transitions & Animations
+Transition Properties
+Keyframes & Animation
+Transformations (Translate, Rotate, Scale, Skew)
+
+9. Responsive Web Design (RWD)
+Media Queries
+Responsive Units (%, vh, vw, em, rem)
+CSS Frameworks (Bootstrap, Tailwind CSS)
+
+
+10. Advanced CSS Concepts
+Custom Properties (CSS Variables)
+CSS Grid vs Flexbox
+CSS Blend Modes & Filters
+CSS Clip Path & Masking
