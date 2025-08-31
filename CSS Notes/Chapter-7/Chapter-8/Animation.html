@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height:100vh;
+            width:vw;
+            background-color: aqua;
+        }
+        .box{
+            width:300px;
+            background-color: red;
+            color:white;
+            height:300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: widthAnimate;
+            animation-duration: 3s;
+            animation-duration: 1s;
+            animation-timing-function:ease-in-out ;
+            animation-iteration-count: 3;
+            animation-direction: alternate-reverse;
+            animation: widthAnimate ease-in-out 0.5s 4 alternate;
+        }
+        @keyframes widthAnimate {
+           from{
+            width:300px;
+            height:100vh;
+           } 
+           to{
+            width:100vw;
+            height:100vh;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="box">This is me</div>
+    </div>
+</body>
+</html>

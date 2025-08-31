@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        .container{
+            background-color: red;
+            height:455px;
+        }
+        .box{
+            border: 2px solid black;
+            /* transform: translate(34px ,154px)rotate(45deg);*/
+            transform-origin: 0; 
+            /* transform: scale(8);
+            transform: scaleX(8);
+            transform: scaleY(8); */
+            transform: skewy (45deg);
+        }
+        img{
+            width:455px;
+            height:455px;
+            transition-duration: 3s;
+            transition: width;
+             transition-timing-function: ease-in ;
+              
+        }
+        img:hover{
+            width:56px;
+            transition: all ease 3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nemo dolorum cupiditate ducimus quis inventore officia iste nostrum tempore sequi corrupti dolor nihil, totam repellat doloremque quod doloribus quam necessitatibus illo hic. Facere, animi!
+        </div>
+       <img src="https://media.istockphoto.com/id/1221041044/photo/teenage-girl-at-white-background-stock-images.webp?a=1&b=1&s=612x612&w=0&k=20&c=vzbLXgg1SOYducAwaK8cWgUNKqMMJtTu5xYWbZE-TNA=" alt="">
+    </div>
+</body>
+</html>
